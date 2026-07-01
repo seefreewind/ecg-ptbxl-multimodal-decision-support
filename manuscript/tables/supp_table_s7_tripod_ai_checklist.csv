@@ -1,0 +1,15 @@
+domain,item,manuscript_location,status,note
+Title/Abstract,Identify study as public-data model development/evaluation,Title; Abstract,addressed,Diagnostic classification framing added in Stage 24.
+Background,State rationale and intended model role,Background,addressed,Decision-support evaluation and evidence-boundary role stated.
+Data,Describe data sources and eligibility,Methods: Data sources and roles,addressed,"PTB-XL/PTB-XL+, CPSC2018, and Chapman-Shaoxing-Ningbo roles specified."
+Participants/records,Report sample sizes and exclusions,Methods: Statistical analysis; Data sources,addressed,PTB-XL split sizes and external readable-record counts reported.
+Predictors/features,Describe signal and structured inputs,Methods: Model groups; Structured-feature reproducibility audit,addressed,Signal embeddings and released PTB-XL+ structured features described.
+Outcome/labels,Define target labels and label scope,Methods: Data sources and roles,addressed,Internal five superclasses and restricted external label subsets stated.
+Model development,Describe architecture and training,Methods: Model groups,addressed,Architecture and key hyperparameters summarized.
+Validation,Describe internal and external validation,Methods; Results,addressed,Internal multimodal and signal-only external validation separated.
+Performance measures,"Report discrimination, calibration, and thresholded metrics",Methods: Statistical analysis; Results,addressed,"AUROC, AP, F1, Brier, ECE, MCE, bootstrap CIs reported."
+Uncertainty/calibration,State calibration and uncertainty methods,Methods; Results,addressed,Temperature scaling and uncertainty triage described.
+Explainability,Describe XAI limits,Methods; Results; Discussion,addressed,"XAI treated as audit output, not causal explanation."
+Clinical use,Avoid unsupported deployment claims,Discussion; Limitations,addressed,No clinical-readiness claim made.
+Reproducibility,Provide code/data availability,Declarations,addressed,GitHub and Zenodo DOI included.
+External multimodal limitation,State unsupported external multimodal validation,Results; Discussion,addressed,External evidence remains signal-only.
