@@ -1,0 +1,9 @@
+[submodule "tools/external_feature_extractors/ECGdeli"]
+	path = tools/external_feature_extractors/ECGdeli
+	url = https://github.com/KIT-IBT/ECGdeli.git
+[submodule "tools/external_feature_extractors/ptbxl_feature_benchmark"]
+	path = tools/external_feature_extractors/ptbxl_feature_benchmark
+	url = https://github.com/tmehari/ptbxl_feature_benchmark.git
+[submodule "tools/external_feature_extractors/pyECGdeli"]
+	path = tools/external_feature_extractors/pyECGdeli
+	url = https://github.com/NPilia/pyECGdeli.git
