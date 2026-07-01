@@ -1,0 +1,13 @@
+stage,model,split,threshold_mode,auroc,average_precision,f1,micro_f1,positive_count,structured_feature_dim
+stage14l_concordant_subset,Signal-embedding MLP (reduced-schema audit),val,default_0.5,0.9119936725777146,0.776099404616206,0.6940101819372613,0.7569988801791714,2786,138
+stage14l_concordant_subset,Signal-embedding MLP (reduced-schema audit),test,default_0.5,0.9094108605268952,0.7722004486218713,0.6980867420939594,0.7579298831385642,2792,138
+stage14l_concordant_subset,Signal-embedding MLP (reduced-schema audit),val,validation_tuned,0.9119936725777146,0.776099404616206,0.7230777161800114,0.7685649991344988,2786,138
+stage14l_concordant_subset,Signal-embedding MLP (reduced-schema audit),test,validation_tuned,0.9094108605268952,0.7722004486218713,0.7123490635689166,0.7578729994837378,2792,138
+stage14l_concordant_subset,Reduced structured-only MLP,val,default_0.5,0.579789140883041,0.313896601202105,0.0007504690431519,0.0007165890361877,2786,138
+stage14l_concordant_subset,Reduced structured-only MLP,test,default_0.5,0.5703637296030353,0.3044559717118323,0.0,0.0,2792,138
+stage14l_concordant_subset,Reduced structured-only MLP,val,validation_tuned,0.579789140883041,0.313896601202105,0.4032162724802695,0.4266737045834433,2786,138
+stage14l_concordant_subset,Reduced structured-only MLP,test,validation_tuned,0.5703637296030353,0.3044559717118323,0.4002045830166256,0.4237898620750241,2792,138
+stage14l_concordant_subset,Reduced matched-concat MLP,val,default_0.5,0.9129894258788795,0.7782599040935113,0.6867914842480689,0.7542087542087542,2786,138
+stage14l_concordant_subset,Reduced matched-concat MLP,test,default_0.5,0.9096655689447324,0.7730997819573394,0.6938211645939891,0.7547239718414227,2792,138
+stage14l_concordant_subset,Reduced matched-concat MLP,val,validation_tuned,0.9129894258788795,0.7782599040935113,0.7250787277095684,0.7686247645144717,2786,138
+stage14l_concordant_subset,Reduced matched-concat MLP,test,validation_tuned,0.9096655689447324,0.7730997819573394,0.7145011116774924,0.7581004628835933,2792,138
