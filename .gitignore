@@ -1,0 +1,24 @@
+data/raw/
+data/processed/*.npy
+data/processed/*.npz
+data/processed/*.pt
+data/processed/*.pkl
+results/**/*.pt
+results/**/*.pth
+results/**/*.pkl
+results/**/logs/
+manuscript/render_qa/
+*.pyc
+__pycache__/
+.venv/
+.DS_Store
+results/logs/
+retinal_fm_benchmark_mvp/
+.trae/
+
+# binary analysis caches
+*.npy
+*.npz
+*.pt
+*.pth
+*.pkl

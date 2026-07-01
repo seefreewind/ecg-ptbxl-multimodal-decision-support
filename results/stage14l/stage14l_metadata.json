@@ -1,0 +1,10 @@
+{
+  "decision_doc": "docs/STAGE14L_GO_NO_GO_DECISION.md",
+  "feature_count": 138,
+  "forbidden_claims": [
+    "exact PTB-XL+ reproduction",
+    "full 531-column external multimodal validation",
+    "gated fusion superiority"
+  ],
+  "stage": "Stage 14L"
+}

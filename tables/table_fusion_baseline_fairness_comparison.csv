@@ -1,0 +1,5 @@
+model,signal_input_type,signal_input_dim,structured_input_dim,classifier_type,checkpoint_source,validation_macro_auroc,test_macro_auroc,is_fair_comparator_for_gated,reason
+strong signal-only,raw ECG waveform encoded by strong SignalResNet,256,0,SignalResNet classifier head,results/internal/signal_strong/signal_strong_best.pt,0.9114075266819333,0.9098145514801864,reference,"strong signal-only reference model, not a fusion comparator"
+structured-only,none,0,531,logistic regression head,not applicable,0.8783609555331442,0.8744547522921897,reference,"structured-only reference model, not a fusion comparator"
+late-probability concat,5 frozen signal probabilities,5,531,logistic regression head,results/internal/signal_resnet.pt,0.8992365479424915,0.8927036901430954,no,uses only 5 signal probabilities rather than high-dimensional signal embeddings
+fair MLP-concat,strong signal encoder pooled embedding,256,531,MLP head,results/internal/signal_strong/signal_strong_best.pt,0.9226791643987468,0.9192507455884116,yes,uses strong signal embedding plus 531 structured features with MLP head

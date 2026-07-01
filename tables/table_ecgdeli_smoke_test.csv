@@ -1,0 +1,2 @@
+smoke_test,passed,matlab_executable,n_samples,n_leads,fpt_multichannel_rows,fpt_multichannel_cols,fpt_cell_leads,amplitude_dims,timing_dims,timing_sync_dims,blocking_issue,notes
+ecgdeli_official_example_batch,True,/Applications/MATLAB_R2025a.app/bin/matlab,115200,12,197,13,12,[12 197 5],[12 197 7],[197 8],,Official ECGdeli example ECG completed without figures.

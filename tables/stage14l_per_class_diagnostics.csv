@@ -1,0 +1,6 @@
+dataset,model,label,evaluation_status,auroc,average_precision,f1,prevalence,positive_count,signal_only_auroc,signal_only_average_precision,signal_only_f1,n_joinable_signal_structured_records,record_coverage_fraction
+cpsc2018,stage14l_fair_concat_mlp,NORM,not_evaluated_external_coverage_no_go,,,,0.08925459825750243,922,0.911937594584231,0.5255558971834964,0.4343624161073826,2,0.00020112630732099757
+cpsc2018,stage14l_fair_concat_mlp,CD,not_evaluated_external_coverage_no_go,,,,0.29022265246853823,2998,0.902226443472362,0.7762502633665584,0.7463697967086157,2,0.00020112630732099757
+chapman,stage14l_fair_concat_mlp,MI,not_evaluated_external_coverage_no_go,,,,0.002724192155212509,123,0.9349162860007572,0.079586927552686,0.0276887578515574,2,4.4296788482835e-05
+chapman,stage14l_fair_concat_mlp,CD,not_evaluated_external_coverage_no_go,,,,0.06772828951739718,3058,0.8387829359675373,0.2624260118136433,0.3318890015672536,2,4.4296788482835e-05
+chapman,stage14l_fair_concat_mlp,HYP,not_evaluated_external_coverage_no_go,,,,0.016633075679386947,751,0.8488006816530488,0.1759802874375344,0.1353425422073391,2,4.4296788482835e-05

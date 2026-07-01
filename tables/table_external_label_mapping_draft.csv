@@ -1,0 +1,11 @@
+source_dataset,source_label,source_label_description,mapped_ptbxl_superclass,mapping_confidence,include_in_main_external_validation,reason,notes
+CPSC2018,NORMAL,Normal ECG,NORM,high,yes,Direct normal label when annotation confirms no major abnormality,Confirm exact label spelling after data placement
+CPSC2018,MI,Myocardial infarction,MI,medium,no,Potentially direct but must confirm source definition and acute/old MI coding,Move to main only after annotation audit
+CPSC2018,STTC,ST-T change or ischemic ST-T abnormality,STTC,medium,no,May be heterogeneous across source labels,Use sensitivity analysis unless label definition is precise
+CPSC2018,BBB,Bundle branch block or conduction abnormality,CD,medium,no,Conduction labels can map to CD but source subclasses need review,Separate RBBB/LBBB/AV block when available
+CPSC2018,LVH,Left ventricular hypertrophy,HYP,medium,no,Hypertrophy label may be direct if available,Confirm annotation dictionary
+Chapman-Shaoxing,Normal,Normal ECG,NORM,high,yes,Direct normal label when annotation confirms no major abnormality,Confirm exact label spelling after data placement
+Chapman-Shaoxing,Myocardial infarction,Myocardial infarction,MI,medium,no,Potentially direct but requires annotation audit,Move to main only after verifying source label semantics
+Chapman-Shaoxing,ST-T abnormality,ST-T abnormality,STTC,medium,no,Possible STTC mapping but may mix nonspecific abnormalities,Prefer sensitivity analysis initially
+Chapman-Shaoxing,Conduction block,Conduction disturbance,CD,medium,no,Likely CD for block labels if specific enough,Audit individual labels before inclusion
+Chapman-Shaoxing,Hypertrophy,Ventricular hypertrophy,HYP,medium,no,Possible HYP mapping if source label is specific,Confirm LVH/RVH definitions

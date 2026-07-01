@@ -1,0 +1,16 @@
+{
+  "best_epoch": 17,
+  "best_validation_score": 0.9129894258788797,
+  "checkpoint_path": "/Users/zy/Documents/ecg/results/stage14l/fair_concat/stage14l_fair_concat_mlp_best.pt",
+  "config_path": "configs/stage14l_fair_concat_mlp.yaml",
+  "early_stopping_split": "val",
+  "n_test": 2198,
+  "n_train": 17418,
+  "n_val": 2183,
+  "seed": 2026,
+  "signal_embedding_dim": 256,
+  "structured_feature_dim": 138,
+  "test_role": "frozen_final_evaluation_only",
+  "threshold_tuning_split": "val",
+  "total_feature_dim": 394
+}

@@ -1,0 +1,2 @@
+direct_420_exact_enough_for_recipe_claim,can_run_multimodal_external_validation,worst_family,families_with_any_discrepancy,blocking_issue,notes
+False,False,T_DurFull:mean,32,direct_feature_numeric_discrepancy;ptbxl_plus_exact_531_recipe_missing,Direct candidate feature names are not sufficient; numeric definitions and remaining 111 features still need exact reconstruction.

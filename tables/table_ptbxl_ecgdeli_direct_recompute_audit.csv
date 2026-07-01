@@ -1,0 +1,4 @@
+ecg_id,status,n_generated_direct_features,n_expected_direct_features,n_missing_direct_features,notes
+1,generated_direct_candidate_features,420,420,0,PTB-XL HR waveform recomputed with local MATLAB/ECGdeli direct candidate generator.
+2,generated_direct_candidate_features,420,420,0,PTB-XL HR waveform recomputed with local MATLAB/ECGdeli direct candidate generator.
+3,generated_direct_candidate_features,420,420,0,PTB-XL HR waveform recomputed with local MATLAB/ECGdeli direct candidate generator.

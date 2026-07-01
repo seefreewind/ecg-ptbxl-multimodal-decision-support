@@ -1,0 +1,5 @@
+dataset,record_id,record_base,status,n_feature_columns,schema_exact_match,blocking_issue,notes,matched_required_features,required_feature_count
+cpsc2018,A0001,/Users/zy/csbj/新高分思路/data/raw/external/cpsc2018/cpsc_2018/g1/A0001,generated_exploratory_features,456,False,ptbxl_plus_exact_531_recipe_missing,Exploratory ECGdeli aggregation only; not frozen PTB-XL+ 531 schema.,0.0,531.0
+cpsc2018,A0002,/Users/zy/csbj/新高分思路/data/raw/external/cpsc2018/cpsc_2018/g1/A0002,generated_exploratory_features,456,False,ptbxl_plus_exact_531_recipe_missing,Exploratory ECGdeli aggregation only; not frozen PTB-XL+ 531 schema.,0.0,531.0
+chapman,JS00001,/Users/zy/csbj/新高分思路/data/raw/external/chapman_shaoxing/WFDBRecords/01/010/JS00001,generated_exploratory_features,456,False,ptbxl_plus_exact_531_recipe_missing,Exploratory ECGdeli aggregation only; not frozen PTB-XL+ 531 schema.,0.0,531.0
+chapman,JS00013,/Users/zy/csbj/新高分思路/data/raw/external/chapman_shaoxing/WFDBRecords/01/010/JS00013,generated_exploratory_features,456,False,ptbxl_plus_exact_531_recipe_missing,Exploratory ECGdeli aggregation only; not frozen PTB-XL+ 531 schema.,0.0,531.0

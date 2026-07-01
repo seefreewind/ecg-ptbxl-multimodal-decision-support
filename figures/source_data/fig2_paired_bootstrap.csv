@@ -1,0 +1,4 @@
+comparison,split,metric,fair_concat_value,gated_fusion_value,delta_gated_minus_fair_concat,paired_bootstrap_ci_lower,paired_bootstrap_ci_upper,ci_contains_zero,n_bootstrap,seed,interpretation
+gated_fusion_mlp_minus_fair_concat_mlp,test,AUROC,0.9192507455884116,0.9195696937646384,0.0003189481762267,-0.0015281380185381,0.0021080261327916,True,1000,2026,no statistically clear gated advantage
+gated_fusion_mlp_minus_fair_concat_mlp,test,AP,0.7952891946259257,0.797778685859135,0.0024894912332092,-0.0013664133136275,0.0070075866858565,True,1000,2026,no statistically clear gated advantage
+gated_fusion_mlp_minus_fair_concat_mlp,test,F1,0.7207618723642264,0.7254634145855452,0.0047015422213188,-0.0043869941249623,0.0141801214697001,True,1000,2026,no statistically clear gated advantage

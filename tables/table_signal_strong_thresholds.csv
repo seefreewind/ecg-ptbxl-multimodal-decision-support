@@ -1,0 +1,6 @@
+label,threshold
+NORM,0.42
+MI,0.3
+STTC,0.38
+CD,0.51
+HYP,0.34

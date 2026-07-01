@@ -1,0 +1,35 @@
+data:
+  train_csv: data/processed/fair_fusion_train.csv
+  val_csv: data/processed/fair_fusion_val.csv
+  test_csv: data/processed/fair_fusion_test.csv
+  labels: [NORM, MI, STTC, CD, HYP]
+model:
+  name: fair_concat_mlp
+  hidden_dims: [512, 256]
+  dropout: 0.3
+  num_classes: 5
+training:
+  epochs: 100
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 10
+  min_delta: 0.0005
+  seed: 2026
+  device: auto
+  save_best_on: val_macro_auroc
+evaluation:
+  tune_thresholds_on_validation: true
+  per_class_thresholds: true
+  bootstrap_resamples: 1000
+output:
+  val_predictions_csv: results/internal/fair_concat/fair_concat_val_predictions.csv
+  test_predictions_csv: results/internal/fair_concat/fair_concat_test_predictions.csv
+  history_csv: results/internal/fair_concat/fair_concat_training_history.csv
+  metrics_val_csv: results/internal/fair_concat/fair_concat_metrics_val.csv
+  metrics_test_csv: results/internal/fair_concat/fair_concat_metrics_test.csv
+  thresholds_json: results/internal/fair_concat/fair_concat_thresholds.json
+  run_summary_json: results/internal/fair_concat/fair_concat_run_summary.json
+  checkpoint_path: results/internal/fair_concat/fair_concat_best.pt
+  table_csv: tables/table_fair_concat_results.csv
+  threshold_comparison_csv: tables/table_fair_concat_threshold_comparison.csv

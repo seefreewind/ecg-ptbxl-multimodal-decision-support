@@ -1,0 +1,2 @@
+n_generated_direct_features,n_required_features,n_missing_required_features,can_run_multimodal_external_validation,blocking_issue,notes
+420,531,111,False,ptbxl_plus_exact_531_recipe_missing,Candidate files contain only direct ECGdeli-derived frozen-schema columns and are intentionally not registered as external structured feature tables.

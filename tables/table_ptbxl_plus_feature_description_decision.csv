@@ -1,0 +1,2 @@
+can_generate_exact_531_features,can_run_multimodal_external_validation,unresolved_feature_columns,unresolved_columns_with_feature_description,unresolved_columns_without_feature_description,blocking_issue,notes
+False,False,111,111,0,direct_feature_numeric_discrepancy;ptbxl_plus_exact_531_recipe_missing,"feature_description.csv provides useful semantics for unresolved PTB-XL+ features, but it does not resolve the exact aggregation recipe and does not explain the observed numeric mismatch between local ECGdeli recomputation and official PTB-XL+ values."

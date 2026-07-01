@@ -1,0 +1,7 @@
+check_group,check_name,status,detail
+metadata,ptbxl_database_csv,pass,found at /Users/zy/Downloads/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/ptbxl_database.csv
+metadata,scp_statements_csv,pass,found at /Users/zy/Downloads/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/scp_statements.csv
+metadata,required_columns,success,all required columns found
+waveform,first_20_records,success,"checked=20, found=20, missing=0"
+ptbxl_plus,structured_features,partial,PTB-XL+ structured features not found. Current project can only run signal-only baseline until structured features are provided.
+feasibility,conclusion,partial,"Conclusion: Feasible for signal-only ECG modeling, but not yet feasible for multimodal modeling."

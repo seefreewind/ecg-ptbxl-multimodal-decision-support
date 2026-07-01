@@ -1,0 +1,50 @@
+{
+  "title": "A reproducibility-aware decision-support evaluation framework for multimodal ECG risk stratification",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Zha, Yi",
+      "affiliation": "The Second Affiliated Hospital of Wenzhou Medical University"
+    },
+    {
+      "name": "Lin, Da",
+      "affiliation": "The Second Affiliated Hospital of Wenzhou Medical University"
+    },
+    {
+      "name": "Chen, Ying",
+      "affiliation": "Wenzhou Medical University"
+    },
+    {
+      "name": "Liu, Yue",
+      "affiliation": "Wenzhou Medical University"
+    },
+    {
+      "name": "Zhang, Yu",
+      "affiliation": "The Second Affiliated Hospital of Wenzhou Medical University",
+      "orcid": "0000-0001-8579-3692"
+    }
+  ],
+  "description": "Manuscript-ready code and artifacts for a public-data ECG study evaluating a reproducibility-aware multimodal decision-support framework. Internal experiments use PTB-XL waveforms and released PTB-XL+ structured features. External validation is restricted to signal-only evaluation on CPSC2018 and Chapman-Shaoxing. The Stage 14L structured-feature audit is a reproducibility and feasibility finding, not external multimodal validation.",
+  "keywords": [
+    "electrocardiography",
+    "clinical decision support",
+    "multimodal fusion",
+    "signal-level external validation",
+    "model calibration",
+    "uncertainty estimation",
+    "explainable artificial intelligence",
+    "reproducibility",
+    "PTB-XL",
+    "public datasets"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Raw PTB-XL, PTB-XL+, CPSC2018, and Chapman-Shaoxing data are not redistributed. Users should obtain raw datasets from their original repositories."
+}

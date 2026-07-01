@@ -1,0 +1,47 @@
+model:
+  name: signal_resnet_cpu_smoke
+  input_channels: 12
+  num_classes: 5
+  base_channels: 16
+  blocks_per_stage: [1, 1, 1]
+  dropout: 0.1
+data:
+  sampling_rate: 100
+  train_csv: data/splits/ptbxl_train.csv
+  val_csv: data/splits/ptbxl_val.csv
+  test_csv: data/splits/ptbxl_test.csv
+  records_base_dir: data/raw/ptbxl
+  labels: [NORM, MI, STTC, CD, HYP]
+training:
+  epochs: 2
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 2
+  min_delta: 0.0005
+  num_workers: 0
+  seed: 2026
+  device: cpu
+  max_train_batches_per_epoch: 200
+  max_eval_batches: null
+  save_best_on: val_macro_auroc
+evaluation:
+  tune_thresholds_on_validation: true
+  threshold_metric: macro_f1
+  per_class_thresholds: true
+  bootstrap_resamples: 200
+output:
+  metrics_csv: results/internal/signal_strong_smoke/signal_strong_metrics.csv
+  metrics_val_csv: results/internal/signal_strong_smoke/signal_strong_metrics_val.csv
+  metrics_test_csv: results/internal/signal_strong_smoke/signal_strong_metrics_test.csv
+  table_csv: tables/table_signal_strong_smoke_results.csv
+  val_predictions_csv: results/internal/signal_strong_smoke/signal_strong_val_predictions.csv
+  test_predictions_csv: results/internal/signal_strong_smoke/signal_strong_test_predictions.csv
+  history_csv: results/internal/signal_strong_smoke/signal_strong_training_history.csv
+  run_summary_json: results/internal/signal_strong_smoke/signal_strong_run_summary.json
+  checkpoint_path: results/internal/signal_strong_smoke/signal_strong_last.pt
+  best_checkpoint_path: results/internal/signal_strong_smoke/signal_strong_best.pt
+  thresholds_json: results/internal/signal_strong_smoke/val_tuned_thresholds.json
+  thresholds_table_csv: tables/table_signal_strong_smoke_thresholds.csv
+  threshold_comparison_csv: tables/table_signal_strong_smoke_threshold_comparison.csv
+

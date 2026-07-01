@@ -1,0 +1,28 @@
+flowchart LR
+  waveform["PTB-XL waveform"]
+  structured["PTB-XL+ structured ECG features"]
+  leakage["leakage-safe feature selection"]
+  signal["strong signal encoder"]
+  structured_mlp["structured MLP"]
+  fair_concat["fair MLP-concat"]
+  gated["gated fusion"]
+  calibration["calibration"]
+  uncertainty["uncertainty triage"]
+  xai["XAI"]
+  dca["DCA"]
+  external["external validation"]
+  referral["clinician referral"]
+  waveform -->|input| signal
+  structured -->|processing| leakage
+  leakage -->|input| structured_mlp
+  signal -->|embedding| fair_concat
+  leakage -->|features| fair_concat
+  signal -->|embedding| gated
+  leakage -->|features| gated
+  fair_concat -->|evaluation| calibration
+  gated -->|evaluation| calibration
+  calibration -->|workflow| uncertainty
+  uncertainty -->|workflow| referral
+  uncertainty -->|audit| xai
+  xai -->|pending| dca
+  dca -->|pending| external

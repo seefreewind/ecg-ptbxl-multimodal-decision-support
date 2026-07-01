@@ -1,0 +1,11 @@
+# BMC MIDM Final Figure Plan
+
+| Figure | Source data path | Script/rendering path | Output path | Status | Issue/notes |
+|:---|:---|:---|:---|:---|:---|
+| Figure 1 | figures/source_data/fig1_framework_nodes.csv; figures/source_data/fig1_framework_edges.csv; figures/fig1_framework_draft.mmd | custom matplotlib rendering in Stage 18 | manuscript/figures/figure1_study_design_evidence_boundary.png | complete | Rendered as BMC-specific evidence-boundary diagram. |
+| Figure 2 | figures/source_data/fig2_model_performance_long.csv; manuscript/tables/table_internal_multimodal_gain_bootstrap.csv | custom matplotlib rendering in Stage 18 | manuscript/figures/figure2_internal_model_performance.png | complete | Rendered with bootstrap-support annotation. |
+| Figure 3 | tables/table_external_signal_results.csv; manuscript/tables/supp_table_external_per_class_diagnostics.csv | custom matplotlib rendering in Stage 18 | manuscript/figures/figure3_external_signal_only_validation.png | complete | Rendered signal-only external macro metrics with boundary note. |
+| Figure 4 | figures/source_data/fig4_calibration_long.csv; results/calibration/reliability_curve_source_data.csv; tables/table_stage15_external_signal_calibration.csv | custom matplotlib rendering in Stage 18 | manuscript/figures/figure4_calibration_reliability.png | complete | Rendered internal calibration/reliability plus external signal-only calibration. |
+| Supplementary Figure S1 | tables/stage14l_internal_results.csv; tables/stage14l_external_results.csv; tables/stage14l_feature_manifest.csv | custom matplotlib rendering in Stage 18 | manuscript/figures/supp_figure_s1_stage14l_audit.png | complete | Rendered Stage 14L audit summary. |
+| Supplementary Figure S2 | figures/source_data/fig6_xai_case_source_data.csv; figures/xai/fig_xai_representative_cases.png | copied existing rendered figure | manuscript/figures/supp_figure_s2_xai_example.png | complete optional | Existing post-hoc XAI figure copied; no speculative examples created. |
+| Visual abstract | manuscript/BMC_MIDM_VISUAL_ABSTRACT_DRAFT.md | custom matplotlib rendering in Stage 18 | manuscript/figures/visual_abstract_bmc_midm.png | complete optional | Rendered from the four-panel evidence-boundary design; also exported as PDF/SVG. |

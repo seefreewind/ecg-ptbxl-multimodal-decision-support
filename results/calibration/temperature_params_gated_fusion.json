@@ -1,0 +1,22 @@
+{
+  "model_name": "gated_fusion_mlp",
+  "temperature_type": "per_class",
+  "class_names": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "temperatures": [
+    1.35,
+    1.35,
+    1.25,
+    1.25,
+    1.25
+  ],
+  "fitted_on_split": "validation",
+  "optimization_metric": "binary_cross_entropy",
+  "status": "fitted",
+  "skipped_reason": ""
+}

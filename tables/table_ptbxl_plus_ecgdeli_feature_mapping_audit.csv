@@ -1,0 +1,532 @@
+ptbxl_plus_feature,base_feature,location,summary_statistic,derivability,ecgdeli_source,requires_exact_ptbxl_plus_rule,notes
+PQ_Int_I,PQ_Int,I,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_I_iqr,PQ_Int,I,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_I_count,PQ_Int,I,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_II,PQ_Int,II,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_II_iqr,PQ_Int,II,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_II_count,PQ_Int,II,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_III,PQ_Int,III,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_III_iqr,PQ_Int,III,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_III_count,PQ_Int,III,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V1,PQ_Int,V1,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V1_iqr,PQ_Int,V1,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V1_count,PQ_Int,V1,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V2,PQ_Int,V2,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V2_iqr,PQ_Int,V2,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V2_count,PQ_Int,V2,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V3,PQ_Int,V3,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V3_iqr,PQ_Int,V3,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V3_count,PQ_Int,V3,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V4,PQ_Int,V4,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V4_iqr,PQ_Int,V4,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V4_count,PQ_Int,V4,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V5,PQ_Int,V5,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V5_iqr,PQ_Int,V5,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V5_count,PQ_Int,V5,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V6,PQ_Int,V6,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V6_iqr,PQ_Int,V6,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_V6_count,PQ_Int,V6,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVF,PQ_Int,aVF,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVF_iqr,PQ_Int,aVF,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVF_count,PQ_Int,aVF,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVL,PQ_Int,aVL,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVL_iqr,PQ_Int,aVL,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVL_count,PQ_Int,aVL,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVR,PQ_Int,aVR,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVR_iqr,PQ_Int,aVR,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_aVR_count,PQ_Int,aVR,count,direct_ecgdeli,"Timing_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli interval: PQ interval; exact filtering and aggregation must still match PTB-XL+.
+PQ_Int_Global,PQ_Int,Global,mean,direct_ecgdeli,"Timing_feature_sync(:,4)",True,Appears derivable from ECGdeli interval_sync: global PQ interval; exact aggregation must still match PTB-XL+.
+PQ_Int_Global_iqr,PQ_Int,Global,iqr,direct_ecgdeli,"Timing_feature_sync(:,4)",True,Appears derivable from ECGdeli interval_sync: global PQ interval; exact aggregation must still match PTB-XL+.
+PQ_Int_Global_count,PQ_Int,Global,count,direct_ecgdeli,"Timing_feature_sync(:,4)",True,Appears derivable from ECGdeli interval_sync: global PQ interval; exact aggregation must still match PTB-XL+.
+PR_Int_I,PR_Int,I,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_I_iqr,PR_Int,I,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_I_count,PR_Int,I,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_II,PR_Int,II,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_II_iqr,PR_Int,II,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_II_count,PR_Int,II,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_III,PR_Int,III,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_III_iqr,PR_Int,III,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_III_count,PR_Int,III,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V1,PR_Int,V1,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V1_iqr,PR_Int,V1,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V1_count,PR_Int,V1,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V2,PR_Int,V2,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V2_iqr,PR_Int,V2,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V2_count,PR_Int,V2,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V3,PR_Int,V3,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V3_iqr,PR_Int,V3,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V3_count,PR_Int,V3,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V4,PR_Int,V4,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V4_iqr,PR_Int,V4,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V4_count,PR_Int,V4,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V5,PR_Int,V5,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V5_iqr,PR_Int,V5,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V5_count,PR_Int,V5,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V6,PR_Int,V6,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V6_iqr,PR_Int,V6,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_V6_count,PR_Int,V6,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVF,PR_Int,aVF,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVF_iqr,PR_Int,aVF,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVF_count,PR_Int,aVF,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVL,PR_Int,aVL,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVL_iqr,PR_Int,aVL,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVL_count,PR_Int,aVL,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVR,PR_Int,aVR,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVR_iqr,PR_Int,aVR,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_aVR_count,PR_Int,aVR,count,direct_ecgdeli,"Timing_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli interval: PR interval; exact filtering and aggregation must still match PTB-XL+.
+PR_Int_Global,PR_Int,Global,mean,direct_ecgdeli,"Timing_feature_sync(:,5)",True,Appears derivable from ECGdeli interval_sync: global PR interval; exact aggregation must still match PTB-XL+.
+PR_Int_Global_iqr,PR_Int,Global,iqr,direct_ecgdeli,"Timing_feature_sync(:,5)",True,Appears derivable from ECGdeli interval_sync: global PR interval; exact aggregation must still match PTB-XL+.
+PR_Int_Global_count,PR_Int,Global,count,direct_ecgdeli,"Timing_feature_sync(:,5)",True,Appears derivable from ECGdeli interval_sync: global PR interval; exact aggregation must still match PTB-XL+.
+P_Amp_I,P_Amp,I,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_I_iqr,P_Amp,I,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_I_count,P_Amp,I,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_II,P_Amp,II,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_II_iqr,P_Amp,II,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_II_count,P_Amp,II,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_III,P_Amp,III,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_III_iqr,P_Amp,III,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_III_count,P_Amp,III,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V1,P_Amp,V1,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V1_iqr,P_Amp,V1,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V1_count,P_Amp,V1,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V2,P_Amp,V2,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V2_iqr,P_Amp,V2,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V2_count,P_Amp,V2,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V3,P_Amp,V3,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V3_iqr,P_Amp,V3,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V3_count,P_Amp,V3,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V4,P_Amp,V4,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V4_iqr,P_Amp,V4,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V4_count,P_Amp,V4,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V5,P_Amp,V5,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V5_iqr,P_Amp,V5,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V5_count,P_Amp,V5,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V6,P_Amp,V6,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V6_iqr,P_Amp,V6,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_V6_count,P_Amp,V6,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVF,P_Amp,aVF,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVF_iqr,P_Amp,aVF,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVF_count,P_Amp,aVF,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVL,P_Amp,aVL,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVL_iqr,P_Amp,aVL,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVL_count,P_Amp,aVL,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVR,P_Amp,aVR,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVR_iqr,P_Amp,aVR,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_Amp_aVR_count,P_Amp,aVR,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli amplitude: P wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_I,P_DurFull,I,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_I_iqr,P_DurFull,I,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_I_count,P_DurFull,I,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_II,P_DurFull,II,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_II_iqr,P_DurFull,II,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_II_count,P_DurFull,II,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_III,P_DurFull,III,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_III_iqr,P_DurFull,III,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_III_count,P_DurFull,III,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V1,P_DurFull,V1,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V1_iqr,P_DurFull,V1,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V1_count,P_DurFull,V1,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V2,P_DurFull,V2,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V2_iqr,P_DurFull,V2,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V2_count,P_DurFull,V2,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V3,P_DurFull,V3,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V3_iqr,P_DurFull,V3,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V3_count,P_DurFull,V3,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V4,P_DurFull,V4,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V4_iqr,P_DurFull,V4,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V4_count,P_DurFull,V4,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V5,P_DurFull,V5,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V5_iqr,P_DurFull,V5,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V5_count,P_DurFull,V5,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V6,P_DurFull,V6,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V6_iqr,P_DurFull,V6,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_V6_count,P_DurFull,V6,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVF,P_DurFull,aVF,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVF_iqr,P_DurFull,aVF,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVF_count,P_DurFull,aVF,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVL,P_DurFull,aVL,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVL_iqr,P_DurFull,aVL,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVL_count,P_DurFull,aVL,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVR,P_DurFull,aVR,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVR_iqr,P_DurFull,aVR,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_DurFull_aVR_count,P_DurFull,aVR,count,direct_ecgdeli,"Timing_feature_12leads(:,:,1)",True,Appears derivable from ECGdeli interval: P wave duration; exact filtering and aggregation must still match PTB-XL+.
+P_Dur_Global,P_Dur,Global,mean,direct_ecgdeli,"Timing_feature_sync(:,1)",True,Appears derivable from ECGdeli interval_sync: global P wave duration; exact aggregation must still match PTB-XL+.
+P_Dur_Global_iqr,P_Dur,Global,iqr,direct_ecgdeli,"Timing_feature_sync(:,1)",True,Appears derivable from ECGdeli interval_sync: global P wave duration; exact aggregation must still match PTB-XL+.
+P_Dur_Global_count,P_Dur,Global,count,direct_ecgdeli,"Timing_feature_sync(:,1)",True,Appears derivable from ECGdeli interval_sync: global P wave duration; exact aggregation must still match PTB-XL+.
+P_Morph_I,P_Morph,I,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_I_iqr,P_Morph,I,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_I_count,P_Morph,I,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_II,P_Morph,II,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_II_iqr,P_Morph,II,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_II_count,P_Morph,II,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_III,P_Morph,III,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_III_iqr,P_Morph,III,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_III_count,P_Morph,III,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V1,P_Morph,V1,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V1_iqr,P_Morph,V1,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V1_count,P_Morph,V1,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V2,P_Morph,V2,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V2_iqr,P_Morph,V2,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V2_count,P_Morph,V2,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V3,P_Morph,V3,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V3_iqr,P_Morph,V3,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V3_count,P_Morph,V3,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V4,P_Morph,V4,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V4_iqr,P_Morph,V4,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V4_count,P_Morph,V4,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V5,P_Morph,V5,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V5_iqr,P_Morph,V5,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V5_count,P_Morph,V5,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V6,P_Morph,V6,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V6_iqr,P_Morph,V6,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_V6_count,P_Morph,V6,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVF,P_Morph,aVF,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVF_iqr,P_Morph,aVF,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVF_count,P_Morph,aVF,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVL,P_Morph,aVL,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVL_iqr,P_Morph,aVL,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVL_count,P_Morph,aVL,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVR,P_Morph,aVR,mean,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVR_iqr,P_Morph,aVR,iqr,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+P_Morph_aVR_count,P_Morph,aVR,count,requires_morphology_function,Get_P_Morphology,True,"Get_P_Morphology can emit P morphology classes, but exact PTB-XL+ aggregation and coding rules must be confirmed"
+Q_Amp_I,Q_Amp,I,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_I_iqr,Q_Amp,I,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_I_count,Q_Amp,I,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_II,Q_Amp,II,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_II_iqr,Q_Amp,II,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_II_count,Q_Amp,II,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_III,Q_Amp,III,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_III_iqr,Q_Amp,III,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_III_count,Q_Amp,III,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V1,Q_Amp,V1,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V1_iqr,Q_Amp,V1,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V1_count,Q_Amp,V1,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V2,Q_Amp,V2,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V2_iqr,Q_Amp,V2,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V2_count,Q_Amp,V2,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V3,Q_Amp,V3,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V3_iqr,Q_Amp,V3,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V3_count,Q_Amp,V3,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V4,Q_Amp,V4,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V4_iqr,Q_Amp,V4,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V4_count,Q_Amp,V4,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V5,Q_Amp,V5,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V5_iqr,Q_Amp,V5,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V5_count,Q_Amp,V5,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V6,Q_Amp,V6,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V6_iqr,Q_Amp,V6,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_V6_count,Q_Amp,V6,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVF,Q_Amp,aVF,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVF_iqr,Q_Amp,aVF,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVF_count,Q_Amp,aVF,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVL,Q_Amp,aVL,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVL_iqr,Q_Amp,aVL,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVL_count,Q_Amp,aVL,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVR,Q_Amp,aVR,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVR_iqr,Q_Amp,aVR,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+Q_Amp_aVR_count,Q_Amp,aVR,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli amplitude: Q peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_I,QRS_Dur,I,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_I_iqr,QRS_Dur,I,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_I_count,QRS_Dur,I,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_II,QRS_Dur,II,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_II_iqr,QRS_Dur,II,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_II_count,QRS_Dur,II,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_III,QRS_Dur,III,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_III_iqr,QRS_Dur,III,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_III_count,QRS_Dur,III,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V1,QRS_Dur,V1,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V1_iqr,QRS_Dur,V1,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V1_count,QRS_Dur,V1,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V2,QRS_Dur,V2,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V2_iqr,QRS_Dur,V2,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V2_count,QRS_Dur,V2,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V3,QRS_Dur,V3,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V3_iqr,QRS_Dur,V3,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V3_count,QRS_Dur,V3,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V4,QRS_Dur,V4,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V4_iqr,QRS_Dur,V4,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V4_count,QRS_Dur,V4,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V5,QRS_Dur,V5,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V5_iqr,QRS_Dur,V5,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V5_count,QRS_Dur,V5,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V6,QRS_Dur,V6,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V6_iqr,QRS_Dur,V6,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_V6_count,QRS_Dur,V6,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVF,QRS_Dur,aVF,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVF_iqr,QRS_Dur,aVF,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVF_count,QRS_Dur,aVF,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVL,QRS_Dur,aVL,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVL_iqr,QRS_Dur,aVL,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVL_count,QRS_Dur,aVL,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVR,QRS_Dur,aVR,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVR_iqr,QRS_Dur,aVR,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_aVR_count,QRS_Dur,aVR,count,direct_ecgdeli,"Timing_feature_12leads(:,:,2)",True,Appears derivable from ECGdeli interval: QRS duration; exact filtering and aggregation must still match PTB-XL+.
+QRS_Dur_Global,QRS_Dur,Global,mean,direct_ecgdeli,"Timing_feature_sync(:,2)",True,Appears derivable from ECGdeli interval_sync: global QRS duration; exact aggregation must still match PTB-XL+.
+QRS_Dur_Global_iqr,QRS_Dur,Global,iqr,direct_ecgdeli,"Timing_feature_sync(:,2)",True,Appears derivable from ECGdeli interval_sync: global QRS duration; exact aggregation must still match PTB-XL+.
+QRS_Dur_Global_count,QRS_Dur,Global,count,direct_ecgdeli,"Timing_feature_sync(:,2)",True,Appears derivable from ECGdeli interval_sync: global QRS duration; exact aggregation must still match PTB-XL+.
+QT_IntCorr_I,QT_IntCorr,I,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_I_iqr,QT_IntCorr,I,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_I_count,QT_IntCorr,I,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_II,QT_IntCorr,II,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_II_iqr,QT_IntCorr,II,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_II_count,QT_IntCorr,II,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_III,QT_IntCorr,III,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_III_iqr,QT_IntCorr,III,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_III_count,QT_IntCorr,III,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V1,QT_IntCorr,V1,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V1_iqr,QT_IntCorr,V1,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V1_count,QT_IntCorr,V1,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V2,QT_IntCorr,V2,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V2_iqr,QT_IntCorr,V2,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V2_count,QT_IntCorr,V2,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V3,QT_IntCorr,V3,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V3_iqr,QT_IntCorr,V3,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V3_count,QT_IntCorr,V3,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V4,QT_IntCorr,V4,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V4_iqr,QT_IntCorr,V4,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V4_count,QT_IntCorr,V4,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V5,QT_IntCorr,V5,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V5_iqr,QT_IntCorr,V5,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V5_count,QT_IntCorr,V5,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V6,QT_IntCorr,V6,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V6_iqr,QT_IntCorr,V6,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_V6_count,QT_IntCorr,V6,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVF,QT_IntCorr,aVF,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVF_iqr,QT_IntCorr,aVF,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVF_count,QT_IntCorr,aVF,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVL,QT_IntCorr,aVL,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVL_iqr,QT_IntCorr,aVL,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVL_count,QT_IntCorr,aVL,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVR,QT_IntCorr,aVR,mean,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVR_iqr,QT_IntCorr,aVR,iqr,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntCorr_aVR_count,QT_IntCorr,aVR,count,requires_extra_formula,"Timing_feature_12leads(:,:,6) plus RR/correction formula",True,leadwise QT correction formula is not emitted by ECGdeli interval extractor and needs an exact PTB-XL+ correction rule
+QT_IntFramingham_Global,QT_IntFramingham,Global,mean,direct_ecgdeli,"Timing_feature_sync(:,7)",True,Appears derivable from ECGdeli interval_sync: global Framingham-corrected QT interval; exact aggregation must still match PTB-XL+.
+QT_IntFramingham_Global_iqr,QT_IntFramingham,Global,iqr,direct_ecgdeli,"Timing_feature_sync(:,7)",True,Appears derivable from ECGdeli interval_sync: global Framingham-corrected QT interval; exact aggregation must still match PTB-XL+.
+QT_IntFramingham_Global_count,QT_IntFramingham,Global,count,direct_ecgdeli,"Timing_feature_sync(:,7)",True,Appears derivable from ECGdeli interval_sync: global Framingham-corrected QT interval; exact aggregation must still match PTB-XL+.
+QT_Int_I,QT_Int,I,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_I_iqr,QT_Int,I,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_I_count,QT_Int,I,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_II,QT_Int,II,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_II_iqr,QT_Int,II,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_II_count,QT_Int,II,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_III,QT_Int,III,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_III_iqr,QT_Int,III,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_III_count,QT_Int,III,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V1,QT_Int,V1,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V1_iqr,QT_Int,V1,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V1_count,QT_Int,V1,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V2,QT_Int,V2,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V2_iqr,QT_Int,V2,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V2_count,QT_Int,V2,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V3,QT_Int,V3,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V3_iqr,QT_Int,V3,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V3_count,QT_Int,V3,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V4,QT_Int,V4,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V4_iqr,QT_Int,V4,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V4_count,QT_Int,V4,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V5,QT_Int,V5,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V5_iqr,QT_Int,V5,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V5_count,QT_Int,V5,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V6,QT_Int,V6,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V6_iqr,QT_Int,V6,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_V6_count,QT_Int,V6,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVF,QT_Int,aVF,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVF_iqr,QT_Int,aVF,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVF_count,QT_Int,aVF,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVL,QT_Int,aVL,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVL_iqr,QT_Int,aVL,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVL_count,QT_Int,aVL,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVR,QT_Int,aVR,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVR_iqr,QT_Int,aVR,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_aVR_count,QT_Int,aVR,count,direct_ecgdeli,"Timing_feature_12leads(:,:,6)",True,Appears derivable from ECGdeli interval: QT interval; exact filtering and aggregation must still match PTB-XL+.
+QT_Int_Global,QT_Int,Global,mean,direct_ecgdeli,"Timing_feature_sync(:,6)",True,Appears derivable from ECGdeli interval_sync: global QT interval; exact aggregation must still match PTB-XL+.
+QT_Int_Global_iqr,QT_Int,Global,iqr,direct_ecgdeli,"Timing_feature_sync(:,6)",True,Appears derivable from ECGdeli interval_sync: global QT interval; exact aggregation must still match PTB-XL+.
+QT_Int_Global_count,QT_Int,Global,count,direct_ecgdeli,"Timing_feature_sync(:,6)",True,Appears derivable from ECGdeli interval_sync: global QT interval; exact aggregation must still match PTB-XL+.
+R_Amp_I,R_Amp,I,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_I_iqr,R_Amp,I,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_I_count,R_Amp,I,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_II,R_Amp,II,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_II_iqr,R_Amp,II,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_II_count,R_Amp,II,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_III,R_Amp,III,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_III_iqr,R_Amp,III,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_III_count,R_Amp,III,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V1,R_Amp,V1,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V1_iqr,R_Amp,V1,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V1_count,R_Amp,V1,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V2,R_Amp,V2,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V2_iqr,R_Amp,V2,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V2_count,R_Amp,V2,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V3,R_Amp,V3,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V3_iqr,R_Amp,V3,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V3_count,R_Amp,V3,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V4,R_Amp,V4,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V4_iqr,R_Amp,V4,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V4_count,R_Amp,V4,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V5,R_Amp,V5,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V5_iqr,R_Amp,V5,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V5_count,R_Amp,V5,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V6,R_Amp,V6,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V6_iqr,R_Amp,V6,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_V6_count,R_Amp,V6,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVF,R_Amp,aVF,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVF_iqr,R_Amp,aVF,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVF_count,R_Amp,aVF,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVL,R_Amp,aVL,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVL_iqr,R_Amp,aVL,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVL_count,R_Amp,aVL,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVR,R_Amp,aVR,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVR_iqr,R_Amp,aVR,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+R_Amp_aVR_count,R_Amp,aVR,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli amplitude: R peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+RR_Mean_Global,RR_Mean,Global,mean,direct_ecgdeli,"Timing_feature_sync(:,8)",True,Appears derivable from ECGdeli interval_sync: global RR interval; exact aggregation must still match PTB-XL+.
+RR_Mean_Global_iqr,RR_Mean,Global,iqr,direct_ecgdeli,"Timing_feature_sync(:,8)",True,Appears derivable from ECGdeli interval_sync: global RR interval; exact aggregation must still match PTB-XL+.
+RR_Mean_Global_count,RR_Mean,Global,count,direct_ecgdeli,"Timing_feature_sync(:,8)",True,Appears derivable from ECGdeli interval_sync: global RR interval; exact aggregation must still match PTB-XL+.
+S_Amp_I,S_Amp,I,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_I_iqr,S_Amp,I,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_I_count,S_Amp,I,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_II,S_Amp,II,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_II_iqr,S_Amp,II,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_II_count,S_Amp,II,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_III,S_Amp,III,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_III_iqr,S_Amp,III,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_III_count,S_Amp,III,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V1,S_Amp,V1,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V1_iqr,S_Amp,V1,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V1_count,S_Amp,V1,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V2,S_Amp,V2,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V2_iqr,S_Amp,V2,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V2_count,S_Amp,V2,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V3,S_Amp,V3,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V3_iqr,S_Amp,V3,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V3_count,S_Amp,V3,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V4,S_Amp,V4,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V4_iqr,S_Amp,V4,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V4_count,S_Amp,V4,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V5,S_Amp,V5,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V5_iqr,S_Amp,V5,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V5_count,S_Amp,V5,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V6,S_Amp,V6,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V6_iqr,S_Amp,V6,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_V6_count,S_Amp,V6,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVF,S_Amp,aVF,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVF_iqr,S_Amp,aVF,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVF_count,S_Amp,aVF,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVL,S_Amp,aVL,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVL_iqr,S_Amp,aVL,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVL_count,S_Amp,aVL,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVR,S_Amp,aVR,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVR_iqr,S_Amp,aVR,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+S_Amp_aVR_count,S_Amp,aVR,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,4)",True,Appears derivable from ECGdeli amplitude: S peak amplitude; exact filtering and aggregation must still match PTB-XL+.
+ST_Elev_I,ST_Elev,I,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_I_iqr,ST_Elev,I,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_I_count,ST_Elev,I,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_II,ST_Elev,II,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_II_iqr,ST_Elev,II,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_II_count,ST_Elev,II,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_III,ST_Elev,III,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_III_iqr,ST_Elev,III,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_III_count,ST_Elev,III,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V1,ST_Elev,V1,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V1_iqr,ST_Elev,V1,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V1_count,ST_Elev,V1,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V2,ST_Elev,V2,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V2_iqr,ST_Elev,V2,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V2_count,ST_Elev,V2,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V3,ST_Elev,V3,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V3_iqr,ST_Elev,V3,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V3_count,ST_Elev,V3,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V4,ST_Elev,V4,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V4_iqr,ST_Elev,V4,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V4_count,ST_Elev,V4,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V5,ST_Elev,V5,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V5_iqr,ST_Elev,V5,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V5_count,ST_Elev,V5,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V6,ST_Elev,V6,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V6_iqr,ST_Elev,V6,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_V6_count,ST_Elev,V6,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVF,ST_Elev,aVF,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVF_iqr,ST_Elev,aVF,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVF_count,ST_Elev,aVF,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVL,ST_Elev,aVL,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVL_iqr,ST_Elev,aVL,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVL_count,ST_Elev,aVL,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVR,ST_Elev,aVR,mean,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVR_iqr,ST_Elev,aVR,iqr,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+ST_Elev_aVR_count,ST_Elev,aVR,count,unknown_recipe,,True,ST elevation feature is not emitted by the audited ECGdeli amplitude/interval extractors
+T_Amp_I,T_Amp,I,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_I_iqr,T_Amp,I,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_I_count,T_Amp,I,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_II,T_Amp,II,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_II_iqr,T_Amp,II,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_II_count,T_Amp,II,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_III,T_Amp,III,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_III_iqr,T_Amp,III,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_III_count,T_Amp,III,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V1,T_Amp,V1,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V1_iqr,T_Amp,V1,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V1_count,T_Amp,V1,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V2,T_Amp,V2,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V2_iqr,T_Amp,V2,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V2_count,T_Amp,V2,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V3,T_Amp,V3,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V3_iqr,T_Amp,V3,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V3_count,T_Amp,V3,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V4,T_Amp,V4,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V4_iqr,T_Amp,V4,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V4_count,T_Amp,V4,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V5,T_Amp,V5,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V5_iqr,T_Amp,V5,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V5_count,T_Amp,V5,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V6,T_Amp,V6,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V6_iqr,T_Amp,V6,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_V6_count,T_Amp,V6,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVF,T_Amp,aVF,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVF_iqr,T_Amp,aVF,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVF_count,T_Amp,aVF,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVL,T_Amp,aVL,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVL_iqr,T_Amp,aVL,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVL_count,T_Amp,aVL,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVR,T_Amp,aVR,mean,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVR_iqr,T_Amp,aVR,iqr,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_Amp_aVR_count,T_Amp,aVR,count,direct_ecgdeli,"Amplitude_feature_12leads(:,:,5)",True,Appears derivable from ECGdeli amplitude: T wave amplitude; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_I,T_DurFull,I,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_I_iqr,T_DurFull,I,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_I_count,T_DurFull,I,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_II,T_DurFull,II,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_II_iqr,T_DurFull,II,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_II_count,T_DurFull,II,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_III,T_DurFull,III,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_III_iqr,T_DurFull,III,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_III_count,T_DurFull,III,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V1,T_DurFull,V1,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V1_iqr,T_DurFull,V1,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V1_count,T_DurFull,V1,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V2,T_DurFull,V2,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V2_iqr,T_DurFull,V2,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V2_count,T_DurFull,V2,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V3,T_DurFull,V3,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V3_iqr,T_DurFull,V3,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V3_count,T_DurFull,V3,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V4,T_DurFull,V4,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V4_iqr,T_DurFull,V4,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V4_count,T_DurFull,V4,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V5,T_DurFull,V5,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V5_iqr,T_DurFull,V5,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V5_count,T_DurFull,V5,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V6,T_DurFull,V6,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V6_iqr,T_DurFull,V6,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_V6_count,T_DurFull,V6,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVF,T_DurFull,aVF,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVF_iqr,T_DurFull,aVF,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVF_count,T_DurFull,aVF,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVL,T_DurFull,aVL,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVL_iqr,T_DurFull,aVL,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVL_count,T_DurFull,aVL,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVR,T_DurFull,aVR,mean,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVR_iqr,T_DurFull,aVR,iqr,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_DurFull_aVR_count,T_DurFull,aVR,count,direct_ecgdeli,"Timing_feature_12leads(:,:,3)",True,Appears derivable from ECGdeli interval: T wave duration; exact filtering and aggregation must still match PTB-XL+.
+T_Dur_Global,T_Dur,Global,mean,direct_ecgdeli,"Timing_feature_sync(:,3)",True,Appears derivable from ECGdeli interval_sync: global T wave duration; exact aggregation must still match PTB-XL+.
+T_Dur_Global_iqr,T_Dur,Global,iqr,direct_ecgdeli,"Timing_feature_sync(:,3)",True,Appears derivable from ECGdeli interval_sync: global T wave duration; exact aggregation must still match PTB-XL+.
+T_Dur_Global_count,T_Dur,Global,count,direct_ecgdeli,"Timing_feature_sync(:,3)",True,Appears derivable from ECGdeli interval_sync: global T wave duration; exact aggregation must still match PTB-XL+.
+HA__Global,HA_,Global,mean,unknown_recipe,,True,HA global feature definition is not available from audited ECGdeli functions
+HA__Global_iqr,HA_,Global,iqr,unknown_recipe,,True,HA global feature definition is not available from audited ECGdeli functions
+HA__Global_count,HA_,Global,count,unknown_recipe,,True,HA global feature definition is not available from audited ECGdeli functions

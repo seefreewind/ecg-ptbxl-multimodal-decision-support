@@ -1,0 +1,32 @@
+ecgdeli_pipeline:
+  status: setup_audit
+  exact_compatibility_required: true
+  external_feature_schema: data/processed/structured_feature_names.txt
+
+repositories:
+  ptbxl_feature_benchmark: tools/external_feature_extractors/ptbxl_feature_benchmark
+  ecgdeli_matlab: tools/external_feature_extractors/ECGdeli
+  pyecgdeli: tools/external_feature_extractors/pyECGdeli
+
+runtime_requirements:
+  preferred_runtime: MATLAB
+  matlab_executable: /Applications/MATLAB_R2025a.app/bin/matlab
+  matlab_extra_paths:
+    - /Users/zy/.codex/tools/MATLAB/R2025a.app/toolbox/shared/signalwavelet/signalwavelet
+    - /Users/zy/.codex/tools/MATLAB/R2025a.app/toolbox/shared/statslib
+    - /Users/zy/.codex/tools/MATLAB/R2025a.app/toolbox/signal/signal
+    - /Users/zy/.codex/tools/MATLAB/R2025a.app/toolbox/stats/stats
+    - /Users/zy/.codex/tools/MATLAB/R2025a.app/toolbox/stats/classreg
+    - /Users/zy/.codex/tools/MATLAB/R2025a.app/toolbox/wavelet/core/wavelet
+    - /Users/zy/.codex/tools/MATLAB/R2025a.app/toolbox/images/images
+  matlab_toolboxes:
+    - image_toolbox
+    - signal_toolbox
+    - statistics_toolbox
+    - wavelet_toolbox
+  octave_allowed_for_audit_only: true
+
+guardrails:
+  allow_pyecgdeli_as_exact_pipeline: false
+  allow_neurokit2_as_exact_pipeline: false
+  require_531_column_schema_match_before_multimodal_external_validation: true

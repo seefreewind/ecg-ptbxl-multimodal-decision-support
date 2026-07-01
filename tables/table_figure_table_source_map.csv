@@ -1,0 +1,12 @@
+item_id,suggested_caption,data_source,script_source,main_or_supplement,needs_rerun
+Table 1,Internal model performance,tables/table_stage8_ablation_comparison.csv,scripts/08d_build_ablation_summary.sh,main,no
+Table 2,Gated vs fair concat paired bootstrap,tables/table_gated_vs_fair_concat_paired_bootstrap.csv,scripts/09b_evaluate_calibration.sh,main,no
+Figure 1,Framework and data-flow schematic,figures/source_data/fig1_framework_nodes.csv; figures/source_data/fig1_framework_edges.csv,scripts/12_build_figure_source_data.sh,main,no
+Figure 2,Internal fair multimodal performance,figures/source_data/fig2_model_performance_long.csv,scripts/12_build_figure_source_data.sh,main,no
+Figure 3,Calibration/reliability,figures/source_data/fig4_calibration_long.csv; results/calibration/reliability_curve_source_data.csv,scripts/09c_plot_reliability.sh,main,no
+Figure 4,Uncertainty triage,figures/source_data/fig5_uncertainty_risk_coverage.csv,scripts/10b_plot_uncertainty_triage.sh,main,no
+Figure 5,Dual-modality XAI examples,figures/source_data/fig6_xai_case_source_data.csv,scripts/11d_build_unified_xai_reports.sh,main,no
+Table 3,Signal-only external validation,tables/table_external_signal_results.csv; tables/table_stage15_external_signal_per_class_diagnostics.csv,scripts/15_stage15_manuscript_readiness.sh,main,no
+Supplementary Table S1,External signal calibration,tables/table_stage15_external_signal_calibration.csv; tables/table_stage15_external_signal_reliability.csv,scripts/15_stage15_manuscript_readiness.sh,supplement,no
+Supplementary Table S2,Structured-feature reproducibility audit summary,tables/table_ptbxl_ecgdeli_direct_recompute_decision.csv; tables/stage14l_feature_manifest.csv,scripts/16h_audit_ptbxl_ecgdeli_direct_recompute.sh; scripts/16l_run_concordant_subset_external_multimodal_validation.sh,supplement,no
+Audit Table A1,Manuscript claim support,tables/table_manuscript_claim_support.csv,scripts/15_stage15_manuscript_readiness.sh,audit-only,no

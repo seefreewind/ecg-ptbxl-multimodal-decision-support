@@ -1,0 +1,2 @@
+source_feature_file,ptbxl_rows,ptbxl_plus_rows,aligned_rows,alignment_rate_vs_ptbxl,alignment_rate_vs_ptbxl_plus,raw_feature_columns,numeric_feature_columns,kept_feature_columns,dropped_feature_columns,missing_rate_threshold,status
+/Users/zy/Documents/ecg/data/raw/ptbxl_plus/features/ecgdeli_features.csv,21799,21799,21799,1.0,1.0,531,531,531,1,0.4,ready

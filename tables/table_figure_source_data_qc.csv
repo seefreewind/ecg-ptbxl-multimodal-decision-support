@@ -1,0 +1,31 @@
+check,status,details
+manifest_exists,passed,figures/source_data/FIGURE_SOURCE_DATA_MANIFEST.csv
+source_nonempty:figures/source_data/fig1_framework_nodes.csv,passed,rows=13
+source_nonempty:figures/source_data/fig1_framework_edges.csv,passed,rows=14
+source_nonempty:figures/source_data/fig2_model_performance_long.csv,passed,rows=28
+required_columns:figures/source_data/fig2_model_performance_long.csv,passed,
+source_nonempty:figures/source_data/fig2_per_class_dotplot.csv,passed,rows=75
+source_nonempty:figures/source_data/fig2_paired_bootstrap.csv,passed,rows=3
+source_nonempty:figures/source_data/fig3_ablation_long.csv,passed,rows=25
+source_nonempty:figures/source_data/fig3_prediction_similarity_matrix.csv,passed,rows=75
+source_nonempty:figures/source_data/fig4_calibration_long.csv,passed,rows=72
+source_nonempty:figures/source_data/fig4_reliability_curve.csv,passed,rows=1200
+source_nonempty:figures/source_data/fig4_confidence_histogram.csv,passed,rows=1200
+source_nonempty:figures/source_data/fig5_uncertainty_risk_coverage.csv,passed,rows=72
+required_columns:figures/source_data/fig5_uncertainty_risk_coverage.csv,passed,
+source_nonempty:figures/source_data/fig5_referred_subset_characteristics.csv,passed,rows=180
+source_nonempty:figures/source_data/fig6_xai_case_source_data.csv,passed,rows=12
+source_nonempty:figures/source_data/fig6_structured_feature_group_attribution.csv,passed,rows=750
+source_nonempty:figures/source_data/fig6_signal_heatmap_index.csv,passed,rows=12
+source_nonempty:figures/source_data/fig7_gate_weight_modality_interaction.csv,passed,rows=2198
+pending_allowed:pending,passed,pending_external_validation
+source_nonempty:figures/source_data/fig8_dca_macro.csv,passed,rows=200
+source_nonempty:figures/source_data/fig8_dca_by_label.csv,passed,rows=1000
+source_nonempty:figures/source_data/fig8_dca_retained_80_coverage.csv,passed,rows=200
+source_nonempty:figures/source_data/fig9_external_validation_readiness.csv,passed,rows=2
+source_nonempty:figures/source_data/fig9_external_label_mapping.csv,passed,rows=19
+late_concat_supplementary,passed,late_probability_concat must not be main
+no_gated_superiority_claim,passed,No positive gated-superiority phrasing in manifest notes
+fig5_coverage_complete,passed,"[0.5, 0.6, 0.7, 0.8, 0.9, 1.0]"
+fig5_validation_cutoff,passed,{'validation'}
+xai_posthoc_marked,passed,XAI source notes should mark post-hoc

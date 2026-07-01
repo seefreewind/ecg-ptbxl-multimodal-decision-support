@@ -1,0 +1,14 @@
+split,n_samples,status,NORM,MI,STTC,CD,HYP
+train,17418,success,7596,4379,4186,3907,2119
+val,2183,success,955,540,528,495,268
+test,2198,success,963,550,521,496,262
+fold_1,2175,success,,,,,
+fold_2,2181,success,,,,,
+fold_3,2192,success,,,,,
+fold_4,2174,success,,,,,
+fold_5,2174,success,,,,,
+fold_6,2173,success,,,,,
+fold_7,2176,success,,,,,
+fold_8,2173,success,,,,,
+fold_9,2183,success,,,,,
+fold_10,2198,success,,,,,

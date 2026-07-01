@@ -1,0 +1,8 @@
+metric,split,calibration_mode,fair_concat_value,gated_fusion_value,delta_gated_minus_fair_concat,better_model,interpretation
+AUROC,test,raw_predictions,0.9192507455884117,0.9195696937646385,0.0003189481762267965,gated_fusion_mlp,discrimination delta is small and should be interpreted with paired bootstrap uncertainty
+AP,test,raw_predictions,0.7952891946259257,0.797778685859135,0.0024894912332092956,gated_fusion_mlp,discrimination delta is small and should be interpreted with paired bootstrap uncertainty
+F1,test,raw_predictions,0.7207618723642264,0.7254634145855452,0.0047015422213188,gated_fusion_mlp,discrimination delta is small and should be interpreted with paired bootstrap uncertainty
+macro_brier,test,raw,0.08811217120221412,0.08578534727376888,-0.002326823928445243,gated_fusion_mlp,lower is better for calibration metrics; temperature scaling may be skipped if logits are unavailable
+macro_ece,test,raw,0.04228641223152761,0.03557194831676912,-0.006714463914758495,gated_fusion_mlp,lower is better for calibration metrics; temperature scaling may be skipped if logits are unavailable
+macro_brier,test,temperature_scaled,0.08635550132774716,0.0844206012355246,-0.0019349000922225662,gated_fusion_mlp,lower is better for calibration metrics; temperature scaling may be skipped if logits are unavailable
+macro_ece,test,temperature_scaled,0.028284265229167403,0.01927639950641536,-0.009007865722752043,gated_fusion_mlp,lower is better for calibration metrics; temperature scaling may be skipped if logits are unavailable

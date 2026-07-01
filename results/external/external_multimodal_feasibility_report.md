@@ -1,0 +1,10 @@
+# External Multimodal Feasibility Report
+
+Generated date: 2026-06-29
+
+| dataset   | has_external_structured_features   | feature_source   |   n_features | matches_ptbxl_plus_features   |   missing_required_features | can_run_signal_only   | can_run_fair_concat   | can_run_gated_fusion   | requires_feature_extraction   | recommended_external_validation_mode   | blocking_issue                                      |
+|:----------|:-----------------------------------|:-----------------|-------------:|:------------------------------|----------------------------:|:----------------------|:----------------------|:-----------------------|:------------------------------|:---------------------------------------|:----------------------------------------------------|
+| cpsc2018  | False                              |                  |            0 | False                         |                         531 | True                  | False                 | False                  | True                          | signal_only_main                       | external_structured_features_missing_for_multimodal |
+| chapman   | False                              |                  |            0 | False                         |                         531 | True                  | False                 | False                  | True                          | signal_only_main                       | external_structured_features_missing_for_multimodal |
+
+Full multimodal external validation is allowed only when PTB-XL+ structured features are matched or a pre-specified missing-modality pathway has been validated.

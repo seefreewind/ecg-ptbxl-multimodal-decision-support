@@ -1,0 +1,16 @@
+{
+  "primary_probability_mode": "temperature_scaled",
+  "primary_uncertainty_score": "entropy_macro",
+  "coverage_levels": [
+    1.0,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.5
+  ],
+  "validation_cutoff_selection": true,
+  "frozen_test_final_evaluation_only": true,
+  "mc_dropout_status": "skipped because dropout-enabled inference was not yet validated for frozen checkpoints",
+  "seed_ensemble_status": "skipped in this stage; repeated-seed uncertainty can be added as supplementary analysis"
+}

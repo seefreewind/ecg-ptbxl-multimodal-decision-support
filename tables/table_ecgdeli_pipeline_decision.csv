@@ -1,0 +1,2 @@
+can_run_exact_external_feature_extraction,can_run_full_multimodal_external_validation,recommended_next_action,blocking_issue
+False,False,"obtain PTB-XL+ ecgdeli extraction recipe and MATLAB runtime/toolboxes, then validate 531-column schema",ptbxl_plus_exact_feature_generation_recipe_missing

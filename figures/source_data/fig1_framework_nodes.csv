@@ -1,0 +1,14 @@
+node_id,node_label,node_type,description,stage
+waveform,PTB-XL waveform,data,100 Hz 12-lead ECG waveform records,data resource
+structured,PTB-XL+ structured ECG features,data,Leakage-safe ecgdeli structured ECG features,data resource
+leakage,leakage-safe feature selection,processing,Remove diagnostic/statement/target-like columns,preprocessing
+signal,strong signal encoder,model,Signal-only ResNet baseline and embeddings,modeling
+structured_mlp,structured MLP,model,Structured-only baseline,modeling
+fair_concat,fair MLP-concat,model,Fair multimodal concat using shared representation interface,modeling
+gated,gated fusion,model,Gated multimodal model; not claimed statistically superior to concat,modeling
+calibration,calibration,decision_support,Validation-only temperature scaling and reliability analysis,trustworthy AI
+uncertainty,uncertainty triage,decision_support,Validation cutoffs and frozen-test risk-coverage,trustworthy AI
+xai,XAI,decision_support,Post-hoc dual-modality attribution,trustworthy AI
+dca,DCA,pending,Decision-curve analysis placeholder,pending
+external,external validation,pending,Cross-dataset validation placeholder,pending
+referral,clinician referral,workflow,Low-confidence ECGs routed to clinician review,decision support

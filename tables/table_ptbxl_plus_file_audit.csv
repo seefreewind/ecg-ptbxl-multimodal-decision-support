@@ -1,0 +1,12 @@
+file,role,allowed_as_input,reason,risk_of_leakage,action
+features/ecgdeli_features.csv,ECG morphology feature table,yes,numeric ECG delineation features,low,candidate structured input
+features/12sl_features.csv,ECG feature table,yes,numeric ECG interval axis amplitude features,low,candidate structured input
+features/unig_features.csv,ECG feature table,yes,numeric ECG feature outputs,low,candidate structured input
+features/feature_description.csv,feature metadata or description,no,describes feature columns rather than per-record features,low,exclude from modeling input
+labels/12sl_statements.csv,automated diagnostic statements,no,label-like diagnostic outputs,high,exclude
+labels/ptbxl_statements.csv,PTB-XL annotation-derived statements,no,target-derived labels,high,exclude
+labels/snomed_description.csv,diagnostic ontology metadata,no,SNOMED label descriptions,high,exclude
+labels/mapping/12slv23ToSNOMED.csv,label mapping file,no,maps diagnostic statements to ontology labels,high,exclude
+labels/mapping/ptbxlToSNOMED.csv,label mapping file,no,maps PTB-XL statements to ontology labels,high,exclude
+median_beats/,waveform or derived beat signal directory,no,not a tabular structured feature table for this stage,medium,exclude in Stage 3
+fiducial_points/,waveform or fiducial related directory,no,not selected as structured branch input in this stage,medium,exclude in Stage 3

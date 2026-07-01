@@ -1,0 +1,2 @@
+can_claim_exact_direct_420_recompute,can_claim_exact_ptbxl_plus_recipe,can_run_multimodal_external_validation,n_sample_records,n_direct_features_compared,n_direct_features_allclose,median_feature_mae,blocking_issue,notes
+False,False,False,3,420,138,0.05910172756602998,ptbxl_plus_exact_531_recipe_missing,Small-sample recomputation audit only; unresolved 111 features and any direct-feature discrepancies block exact 531-feature claims.

@@ -1,0 +1,31 @@
+model_name,probability_mode,uncertainty_score,test_retained_macro_f1_at_80_coverage,test_retained_macro_auroc_at_80_coverage,test_referral_fraction_at_80_coverage,monotonicity_score,recommended_as_primary,reason
+fair_concat_mlp,raw,entropy_macro,0.7560765982301345,0.9300201387752736,0.20336669699727025,1.0,False,Supplementary uncertainty score.
+fair_concat_mlp,raw,entropy_max,0.7421843420317913,0.9256008102211544,0.19881710646041856,1.0,False,Supplementary uncertainty score.
+fair_concat_mlp,raw,margin_uncertainty,0.7495613113120527,0.9260471752515015,0.2010919017288444,0.8,False,Supplementary uncertainty score.
+fair_concat_mlp,temperature_scaled,entropy_macro,0.7574694389668032,0.9315311002982101,0.2010919017288444,1.0,True,Selected by average monotonicity and retained performance across main models using validation-cutoff frozen-test evaluation.
+fair_concat_mlp,temperature_scaled,entropy_max,0.7363000006039959,0.9256009092477463,0.19881710646041856,1.0,False,Supplementary uncertainty score.
+fair_concat_mlp,temperature_scaled,margin_uncertainty,0.7445726008540677,0.9277957844345556,0.21656050955414013,0.6,False,Supplementary uncertainty score.
+gated_fusion_mlp,raw,entropy_macro,0.7587812300053042,0.9293418829513967,0.20154686078252956,1.0,False,Supplementary uncertainty score.
+gated_fusion_mlp,raw,entropy_max,0.7490839142674612,0.9262901377329135,0.2024567788898999,0.8,False,Supplementary uncertainty score.
+gated_fusion_mlp,raw,margin_uncertainty,0.7527320184542395,0.9260967658824557,0.1897179253867152,1.0,False,Supplementary uncertainty score.
+gated_fusion_mlp,temperature_scaled,entropy_macro,0.7596679384162239,0.9302500731581231,0.20063694267515925,1.0,True,Selected by average monotonicity and retained performance across main models using validation-cutoff frozen-test evaluation.
+gated_fusion_mlp,temperature_scaled,entropy_max,0.7483173911108177,0.9264175552819575,0.20063694267515925,0.8,False,Supplementary uncertainty score.
+gated_fusion_mlp,temperature_scaled,margin_uncertainty,0.7520402902753492,0.9262782599094423,0.19153776160145586,0.8,False,Supplementary uncertainty score.
+signal_embedding_mlp,raw,entropy_macro,0.7263984763061749,0.9194450088534228,0.1969972702456779,1.0,False,Supplementary uncertainty score.
+signal_embedding_mlp,raw,entropy_max,0.7169094555710835,0.9136744473160604,0.19381255686988172,1.0,False,Supplementary uncertainty score.
+signal_embedding_mlp,raw,margin_uncertainty,0.7268369188654921,0.919241156944356,0.1951774340309372,1.0,False,Supplementary uncertainty score.
+signal_embedding_mlp,temperature_scaled,entropy_macro,0.7220405777695688,0.9193537949514443,0.20063694267515925,1.0,True,Selected by average monotonicity and retained performance across main models using validation-cutoff frozen-test evaluation.
+signal_embedding_mlp,temperature_scaled,entropy_max,0.711219503545902,0.9136318285232802,0.19881710646041856,1.0,False,Supplementary uncertainty score.
+signal_embedding_mlp,temperature_scaled,margin_uncertainty,0.7214244107647128,0.9187432060521701,0.18289353958143767,1.0,False,Supplementary uncertainty score.
+strong_signal_only,raw,entropy_macro,0.7366525475303366,0.9227022273481469,0.20291173794358508,1.0,False,Supplementary uncertainty score.
+strong_signal_only,raw,entropy_max,0.730734350081945,0.918647521656621,0.20382165605095542,1.0,False,Supplementary uncertainty score.
+strong_signal_only,raw,margin_uncertainty,0.7333556820597275,0.9185855924378814,0.1979071883530482,1.0,False,Supplementary uncertainty score.
+strong_signal_only,temperature_scaled,entropy_macro,0.7419589860586825,0.9237220935255468,0.2010919017288444,1.0,True,Selected by average monotonicity and retained performance across main models using validation-cutoff frozen-test evaluation.
+strong_signal_only,temperature_scaled,entropy_max,0.7370968829907779,0.9187738973406795,0.20791628753412192,1.0,False,Supplementary uncertainty score.
+strong_signal_only,temperature_scaled,margin_uncertainty,0.7365995155235774,0.9206528448440021,0.20382165605095542,1.0,False,Supplementary uncertainty score.
+structured_mlp,raw,entropy_macro,0.7264519615900039,0.913818752510833,0.20382165605095542,0.8,False,Supplementary uncertainty score.
+structured_mlp,raw,entropy_max,0.7127060570216841,0.9086302529615036,0.1897179253867152,0.8,False,Supplementary uncertainty score.
+structured_mlp,raw,margin_uncertainty,0.7322961812171614,0.9115427780098505,0.20609645131938126,1.0,False,Supplementary uncertainty score.
+structured_mlp,temperature_scaled,entropy_macro,0.7278681123317251,0.9147397011518239,0.19745222929936307,0.8,True,Selected by average monotonicity and retained performance across main models using validation-cutoff frozen-test evaluation.
+structured_mlp,temperature_scaled,entropy_max,0.7089130880781062,0.9087247221790244,0.18926296633303002,0.8,False,Supplementary uncertainty score.
+structured_mlp,temperature_scaled,margin_uncertainty,0.7258447975993054,0.9096001943431082,0.20063694267515925,1.0,False,Supplementary uncertainty score.

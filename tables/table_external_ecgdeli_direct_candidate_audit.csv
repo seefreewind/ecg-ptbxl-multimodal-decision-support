@@ -1,0 +1,5 @@
+dataset,record_id,status,n_generated_direct_features,n_expected_direct_features,n_missing_direct_features,schema_exact_match,blocking_issue,notes
+cpsc2018,A0001,generated_direct_candidate_features,420,420,0,False,ptbxl_plus_exact_531_recipe_missing,Direct ECGdeli candidate features only; unresolved 111 frozen PTB-XL+ features are not generated.
+cpsc2018,A0002,generated_direct_candidate_features,420,420,0,False,ptbxl_plus_exact_531_recipe_missing,Direct ECGdeli candidate features only; unresolved 111 frozen PTB-XL+ features are not generated.
+chapman,JS00001,generated_direct_candidate_features,420,420,0,False,ptbxl_plus_exact_531_recipe_missing,Direct ECGdeli candidate features only; unresolved 111 frozen PTB-XL+ features are not generated.
+chapman,JS00013,generated_direct_candidate_features,420,420,0,False,ptbxl_plus_exact_531_recipe_missing,Direct ECGdeli candidate features only; unresolved 111 frozen PTB-XL+ features are not generated.

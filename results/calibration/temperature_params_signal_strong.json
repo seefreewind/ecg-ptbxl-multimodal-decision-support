@@ -1,0 +1,22 @@
+{
+  "model_name": "strong_signal_only",
+  "temperature_type": "per_class",
+  "class_names": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "temperatures": [
+    1.1500000000000001,
+    1.4000000000000001,
+    1.1,
+    1.1,
+    1.05
+  ],
+  "fitted_on_split": "validation",
+  "optimization_metric": "binary_cross_entropy",
+  "status": "fitted",
+  "skipped_reason": ""
+}

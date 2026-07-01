@@ -1,0 +1,62 @@
+[
+  {
+    "model_name": "strong_signal_only",
+    "checkpoint_path": "/Users/zy/Documents/ecg/results/internal/signal_strong/signal_strong_best.pt",
+    "val_output_path": "/Users/zy/Documents/ecg/results/internal/signal_strong/signal_strong_val_predictions_with_logits.csv",
+    "test_output_path": "/Users/zy/Documents/ecg/results/internal/signal_strong/signal_strong_test_predictions_with_logits.csv",
+    "val_rows": 2183,
+    "test_rows": 2198,
+    "logit_columns": 5,
+    "probability_columns": 5,
+    "status": "exported",
+    "notes": ""
+  },
+  {
+    "model_name": "signal_embedding_mlp",
+    "checkpoint_path": "/Users/zy/Documents/ecg/results/internal/ablation_signal_embedding/signal_embedding_mlp_best.pt",
+    "val_output_path": "/Users/zy/Documents/ecg/results/internal/signal_embedding_mlp/signal_embedding_mlp_val_predictions_with_logits.csv",
+    "test_output_path": "/Users/zy/Documents/ecg/results/internal/signal_embedding_mlp/signal_embedding_mlp_test_predictions_with_logits.csv",
+    "val_rows": 2183,
+    "test_rows": 2198,
+    "logit_columns": 5,
+    "probability_columns": 5,
+    "status": "exported",
+    "notes": ""
+  },
+  {
+    "model_name": "structured_mlp",
+    "checkpoint_path": "/Users/zy/Documents/ecg/results/internal/ablation_structured/structured_mlp_best.pt",
+    "val_output_path": "/Users/zy/Documents/ecg/results/internal/structured_mlp/structured_mlp_val_predictions_with_logits.csv",
+    "test_output_path": "/Users/zy/Documents/ecg/results/internal/structured_mlp/structured_mlp_test_predictions_with_logits.csv",
+    "val_rows": 2183,
+    "test_rows": 2198,
+    "logit_columns": 5,
+    "probability_columns": 5,
+    "status": "exported",
+    "notes": ""
+  },
+  {
+    "model_name": "fair_concat_mlp",
+    "checkpoint_path": "/Users/zy/Documents/ecg/results/internal/fair_concat/fair_concat_best.pt",
+    "val_output_path": "/Users/zy/Documents/ecg/results/internal/fair_concat/fair_concat_val_predictions_with_logits.csv",
+    "test_output_path": "/Users/zy/Documents/ecg/results/internal/fair_concat/fair_concat_test_predictions_with_logits.csv",
+    "val_rows": 2183,
+    "test_rows": 2198,
+    "logit_columns": 5,
+    "probability_columns": 5,
+    "status": "exported",
+    "notes": ""
+  },
+  {
+    "model_name": "gated_fusion_mlp",
+    "checkpoint_path": "/Users/zy/Documents/ecg/results/internal/gated_fusion/gated_fusion_best.pt",
+    "val_output_path": "/Users/zy/Documents/ecg/results/internal/gated_fusion/gated_fusion_val_predictions_with_logits.csv",
+    "test_output_path": "/Users/zy/Documents/ecg/results/internal/gated_fusion/gated_fusion_test_predictions_with_logits.csv",
+    "val_rows": 2183,
+    "test_rows": 2198,
+    "logit_columns": 5,
+    "probability_columns": 5,
+    "status": "exported",
+    "notes": ""
+  }
+]

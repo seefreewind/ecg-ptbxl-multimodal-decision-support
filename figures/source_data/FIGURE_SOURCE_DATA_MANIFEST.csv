@@ -1,0 +1,23 @@
+figure,panel,source_file,description,generated_from,script,status,last_updated,notes
+Figure 1,A-D,figures/source_data/fig1_framework_nodes.csv,Framework nodes,manual stage design,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 1,A-D,figures/source_data/fig1_framework_edges.csv,Framework edges,manual stage design,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 2,A/D,figures/source_data/fig2_model_performance_long.csv,Main model performance long table,Stage 8/9/9B metrics,scripts/12_build_figure_source_data.sh,ready,2026-06-29,Late concat marked supplementary
+Figure 2,B,figures/source_data/fig2_per_class_dotplot.csv,Per-class model metrics,model metric files,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 2,C,figures/source_data/fig2_paired_bootstrap.csv,Gated vs fair concat paired bootstrap,Stage 9 paired bootstrap,scripts/12_build_figure_source_data.sh,ready,2026-06-29,CI contains zero; no gated superiority claim
+Figure 3,A-D,figures/source_data/fig3_ablation_long.csv,Ablation and complementarity metrics,Stage 8/9B outputs,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 3,E,figures/source_data/fig3_prediction_similarity_matrix.csv,Prediction/error/uncertainty similarity,Stage 9B predictions and Stage 10 uncertainty,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 4,A/B,figures/source_data/fig4_calibration_long.csv,Calibration metrics raw vs temperature scaled,Stage 9B calibration,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 4,C,figures/source_data/fig4_reliability_curve.csv,Reliability curve bins,Stage 9B reliability,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 4,D,figures/source_data/fig4_confidence_histogram.csv,Confidence histogram bins,Stage 9B reliability,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 5,A-C,figures/source_data/fig5_uncertainty_risk_coverage.csv,Risk-coverage metrics with validation cutoffs,Stage 10 uncertainty,scripts/12_build_figure_source_data.sh,ready,2026-06-29,Frozen test evaluation
+Figure 5,D,figures/source_data/fig5_referred_subset_characteristics.csv,Referred subset characteristics,Stage 10 uncertainty,scripts/12_build_figure_source_data.sh,ready,2026-06-29,
+Figure 6,A-D,figures/source_data/fig6_xai_case_source_data.csv,Unified XAI case source data,Stage 11 XAI,scripts/12_build_figure_source_data.sh,ready,2026-06-29,post-hoc analysis
+Figure 6,C,figures/source_data/fig6_structured_feature_group_attribution.csv,Grouped structured attributions,Stage 11 XAI,scripts/12_build_figure_source_data.sh,ready,2026-06-29,post-hoc analysis
+Figure 6,D,figures/source_data/fig6_signal_heatmap_index.csv,Signal heatmap file index,Stage 11 XAI,scripts/12_build_figure_source_data.sh,ready,2026-06-29,post-hoc analysis
+Figure 7,A-D,figures/source_data/fig7_gate_weight_modality_interaction.csv,Gate weight modality interaction,Stage 11 gate weights,scripts/12_build_figure_source_data.sh,ready,2026-06-29,"Gate weights are branch weighting, not causal clinical weights"
+External validation,pending,pending,External validation source data,not yet run,pending,pending_external_validation,2026-06-29,Reserved interface
+Figure 8,A/C,figures/source_data/fig8_dca_macro.csv,Macro decision curve analysis,Stage 12 DCA,scripts/13_evaluate_dca.sh,ready,2026-06-29,Internal exploratory DCA; no clinical-readiness claim.
+Figure 8,B,figures/source_data/fig8_dca_by_label.csv,Label-wise decision curve analysis,Stage 12 DCA,scripts/13_evaluate_dca.sh,ready,2026-06-29,Binary label-wise DCA.
+Figure 8,D,figures/source_data/fig8_dca_retained_80_coverage.csv,DCA on 80% high-confidence retained subset,Stage 12 DCA + Stage 10 validation cutoffs,scripts/13_evaluate_dca.sh,ready,2026-06-29,Exploratory retained-subset analysis using validation-selected cutoffs.
+Figure 9,A/C/D,figures/source_data/fig9_external_validation_readiness.csv,"External dataset availability, waveform compatibility, and recommended validation mode",Stage 13A external readiness audit,scripts/14c_prepare_external_waveforms.sh,ready,2026-06-29,Readiness only; not external validation results.
+Figure 9,B,figures/source_data/fig9_external_label_mapping.csv,External label mapping confidence audit,Stage 13A external readiness audit,scripts/14a_discover_external_datasets.sh,ready,2026-06-29,Draft mapping table requiring confirmation against actual label files.

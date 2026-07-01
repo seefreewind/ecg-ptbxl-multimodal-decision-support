@@ -1,0 +1,16 @@
+{
+  "best_epoch": 5,
+  "best_validation_score": 0.9119936725777146,
+  "checkpoint_path": "/Users/zy/Documents/ecg/results/stage14l/signal_embedding/stage14l_signal_embedding_mlp_best.pt",
+  "config_path": "configs/stage14l_signal_embedding_mlp.yaml",
+  "early_stopping_split": "val",
+  "input_dim": 256,
+  "modality": "signal_embedding",
+  "model": "stage14l_signal_embedding_mlp",
+  "n_test": 2198,
+  "n_train": 17418,
+  "n_val": 2183,
+  "seed": 2026,
+  "test_role": "frozen_final_evaluation_only",
+  "threshold_tuning_split": "val"
+}

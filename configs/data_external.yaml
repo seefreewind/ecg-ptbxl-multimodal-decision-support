@@ -1,0 +1,28 @@
+external:
+  cpsc2018:
+    enabled: true
+    root_dir: /Users/zy/csbj/新高分思路/data/raw/external/cpsc2018
+    label_file: null
+    waveform_format: auto
+    expected_leads: 12
+    target_sampling_rate: 100
+    target_duration_seconds: 10
+
+  chapman:
+    enabled: true
+    root_dir: /Users/zy/csbj/新高分思路/data/raw/external/chapman_shaoxing
+    alternate_root_dirs:
+      - data/raw/external/chapman_shaoxing
+    label_file: null
+    waveform_format: auto
+    expected_leads: 12
+    target_sampling_rate: 100
+    target_duration_seconds: 10
+
+task:
+  ptbxl_superclasses:
+    - NORM
+    - MI
+    - STTC
+    - CD
+    - HYP

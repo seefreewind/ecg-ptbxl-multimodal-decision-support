@@ -1,0 +1,3 @@
+dataset,feature_table,exists,n_rows,n_columns,required_feature_count,matched_required_features,missing_required_features,extra_feature_columns,has_record_id,has_source_dataset,nonempty,schema_exact_match,can_run_multimodal_external_validation,blocking_issue
+cpsc2018,data/processed/external/cpsc2018_structured_features.csv,False,0,0,531,0,531,0,False,False,False,False,False,external_structured_feature_table_missing
+chapman,data/processed/external/chapman_structured_features.csv,False,0,0,531,0,531,0,False,False,False,False,False,external_structured_feature_table_missing

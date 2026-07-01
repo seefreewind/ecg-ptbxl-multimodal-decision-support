@@ -1,0 +1,29 @@
+data:
+  features_csv: data/processed/ptbxl_structured_features.csv
+  index_csv: data/processed/ptbxl_multimodal_index.csv
+  feature_names_txt: data/processed/structured_feature_names.txt
+  records_base_dir: data/raw/ptbxl
+  signal_checkpoint_path: results/internal/signal_resnet.pt
+  labels: [NORM, MI, STTC, CD, HYP]
+model:
+  name: concat_fusion_logistic
+  C: 1.0
+  class_weight: balanced
+  max_iter: 500
+  solver: liblinear
+training:
+  seed: 2026
+  device: cpu
+  signal_batch_size: 64
+  num_workers: 0
+  imputation_strategy: median
+output:
+  generated_signal_train_csv: results/internal/concat_fusion_signal_train_features.csv
+  generated_signal_val_csv: results/internal/concat_fusion_signal_val_features.csv
+  generated_signal_test_csv: results/internal/concat_fusion_signal_test_features.csv
+  metrics_csv: results/internal/concat_fusion_metrics.csv
+  table_csv: tables/table_concat_fusion_results.csv
+  val_predictions_csv: results/internal/concat_fusion_val_predictions.csv
+  test_predictions_csv: results/internal/concat_fusion_test_predictions.csv
+  run_summary_json: results/internal/concat_fusion_run_summary.json
+  model_path: results/internal/concat_fusion_logistic.pkl

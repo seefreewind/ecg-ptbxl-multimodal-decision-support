@@ -1,0 +1,37 @@
+data:
+  train_csv: data/processed/fair_fusion_train.csv
+  val_csv: data/processed/fair_fusion_val.csv
+  test_csv: data/processed/fair_fusion_test.csv
+  labels: [NORM, MI, STTC, CD, HYP]
+model:
+  name: gated_fusion_mlp
+  hidden_dim: 256
+  classifier_hidden_dim: 256
+  dropout: 0.3
+  num_classes: 5
+training:
+  epochs: 100
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 10
+  min_delta: 0.0005
+  seed: 2026
+  device: auto
+  save_best_on: val_macro_auroc
+evaluation:
+  tune_thresholds_on_validation: true
+  per_class_thresholds: true
+  bootstrap_resamples: 1000
+output:
+  val_predictions_csv: results/internal/gated_fusion/gated_fusion_val_predictions.csv
+  test_predictions_csv: results/internal/gated_fusion/gated_fusion_test_predictions.csv
+  history_csv: results/internal/gated_fusion/gated_fusion_training_history.csv
+  metrics_val_csv: results/internal/gated_fusion/gated_fusion_metrics_val.csv
+  metrics_test_csv: results/internal/gated_fusion/gated_fusion_metrics_test.csv
+  thresholds_json: results/internal/gated_fusion/gated_fusion_thresholds.json
+  run_summary_json: results/internal/gated_fusion/gated_fusion_run_summary.json
+  checkpoint_path: results/internal/gated_fusion/gated_fusion_best.pt
+  gate_summary_csv: results/internal/gated_fusion/gated_fusion_gate_summary.csv
+  table_csv: tables/table_gated_fusion_results.csv
+  threshold_comparison_csv: tables/table_gated_fusion_threshold_comparison.csv

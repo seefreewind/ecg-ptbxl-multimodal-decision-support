@@ -1,0 +1,16 @@
+data:
+  train_csv: data/splits/ptbxl_train.csv
+  val_csv: data/splits/ptbxl_val.csv
+  test_csv: data/splits/ptbxl_test.csv
+  records_base_dir: data/raw/ptbxl
+  checkpoint_path: results/internal/signal_strong/signal_strong_best.pt
+  labels: [NORM, MI, STTC, CD, HYP]
+runtime:
+  device: auto
+  batch_size: 64
+  num_workers: 0
+output:
+  train_csv: data/processed/signal_embeddings_strong_train.csv
+  val_csv: data/processed/signal_embeddings_strong_val.csv
+  test_csv: data/processed/signal_embeddings_strong_test.csv
+  metadata_json: data/processed/signal_embedding_metadata.json

@@ -1,0 +1,20 @@
+source_dataset,source_label,source_label_description,mapped_ptbxl_superclass,mapping_confidence,include_in_main_external_validation,include_in_sensitivity_analysis,exclude_from_external_validation,reason,notes
+CPSC2018,Normal,Normal ECG/control label,NORM,high,True,False,False,Direct normal label if annotation confirms absence of major abnormality.,Confirm exact spelling in placed label file.
+CPSC2018,I-AVB,First-degree atrioventricular block,CD,high,True,False,False,Specific conduction disturbance.,High-confidence CD if source dictionary matches CPSC2018 convention.
+CPSC2018,LBBB,Left bundle branch block,CD,high,True,False,False,Specific bundle branch block.,
+CPSC2018,RBBB,Right bundle branch block,CD,high,True,False,False,Specific bundle branch block.,
+CPSC2018,STD,ST depression,STTC,medium,False,True,False,Likely ST-T change but should remain sensitivity-only until source definition is audited.,Do not combine with infarction labels.
+CPSC2018,STE,ST elevation,STTC,low,False,False,True,ST elevation may reflect acute ischemia/infarction and is not a safe PTB-XL STTC/MI mapping by itself.,
+CPSC2018,AF,Atrial fibrillation,,exclude,False,False,True,Arrhythmia label does not map cleanly to NORM/MI/STTC/CD/HYP.,
+CPSC2018,PAC,Premature atrial contraction,,exclude,False,False,True,Ectopy label outside target superclass task.,
+CPSC2018,PVC,Premature ventricular contraction,,exclude,False,False,True,Ectopy label outside target superclass task.,
+Chapman-Shaoxing,Normal ECG,Normal ECG/control label,NORM,high,True,False,False,Direct normal label if annotation confirms no major abnormality.,Sinus rhythm alone should not be treated as high-confidence normal.
+Chapman-Shaoxing,Sinus rhythm,Sinus rhythm without explicit normal-control definition,NORM,medium,False,True,False,Sinus rhythm may coexist with other abnormalities.,Sensitivity analysis only unless dataset defines it as normal.
+Chapman-Shaoxing,Myocardial infarction,Myocardial infarction diagnosis,MI,high,True,False,False,Direct MI label when exact diagnosis is available.,Confirm source dictionary and acute/old MI wording.
+Chapman-Shaoxing,Old myocardial infarction,Old myocardial infarction diagnosis,MI,high,True,False,False,Direct infarction label.,
+Chapman-Shaoxing,ST-T abnormality,ST/T wave abnormality,STTC,medium,False,True,False,Potential STTC mapping but may be nonspecific or mixed.,Main analysis only if exact source definition is audited.
+Chapman-Shaoxing,RBBB,Right bundle branch block,CD,high,True,False,False,Specific conduction disturbance.,
+Chapman-Shaoxing,LBBB,Left bundle branch block,CD,high,True,False,False,Specific conduction disturbance.,
+Chapman-Shaoxing,AV block,Atrioventricular block,CD,high,True,False,False,Specific conduction disturbance.,
+Chapman-Shaoxing,Left ventricular hypertrophy,Left ventricular hypertrophy,HYP,high,True,False,False,Direct hypertrophy label.,Voltage-only abnormality should be downgraded to medium.
+Chapman-Shaoxing,Atrial fibrillation,Atrial fibrillation rhythm label,,exclude,False,False,True,Rhythm label outside PTB-XL five-superclass target.,

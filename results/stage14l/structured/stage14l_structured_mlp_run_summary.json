@@ -1,0 +1,16 @@
+{
+  "best_epoch": 14,
+  "best_validation_score": 0.579789140883041,
+  "checkpoint_path": "/Users/zy/Documents/ecg/results/stage14l/structured/stage14l_structured_mlp_best.pt",
+  "config_path": "configs/stage14l_structured_mlp.yaml",
+  "early_stopping_split": "val",
+  "input_dim": 138,
+  "modality": "structured",
+  "model": "stage14l_structured_mlp",
+  "n_test": 2198,
+  "n_train": 17418,
+  "n_val": 2183,
+  "seed": 2026,
+  "test_role": "frozen_final_evaluation_only",
+  "threshold_tuning_split": "val"
+}

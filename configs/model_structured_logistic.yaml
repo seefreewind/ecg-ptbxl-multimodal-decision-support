@@ -1,0 +1,21 @@
+data:
+  features_csv: data/processed/ptbxl_structured_features.csv
+  index_csv: data/processed/ptbxl_multimodal_index.csv
+  feature_names_txt: data/processed/structured_feature_names.txt
+  labels: [NORM, MI, STTC, CD, HYP]
+model:
+  name: structured_logistic
+  C: 1.0
+  class_weight: balanced
+  max_iter: 500
+  solver: liblinear
+training:
+  seed: 2026
+  imputation_strategy: median
+output:
+  metrics_csv: results/internal/structured_baseline_metrics.csv
+  table_csv: tables/table_structured_baseline_results.csv
+  val_predictions_csv: results/internal/structured_val_predictions.csv
+  test_predictions_csv: results/internal/structured_test_predictions.csv
+  run_summary_json: results/internal/structured_run_summary.json
+  model_path: results/internal/structured_logistic.pkl

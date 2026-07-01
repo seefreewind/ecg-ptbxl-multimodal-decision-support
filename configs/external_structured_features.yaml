@@ -1,0 +1,22 @@
+external_structured_features:
+  required_feature_names: data/processed/structured_feature_names.txt
+  ptbxl_plus_reference: data/processed/ptbxl_structured_features.csv
+  expected_feature_count: 531
+  exact_compatibility_required: true
+  allowed_main_multimodal_if_exact_match_only: true
+
+candidate_methods:
+  ecgdeli:
+    preferred: true
+    reason: PTB-XL+ selected feature table is ecgdeli-derived.
+  neurokit2:
+    preferred: false
+    reason: May generate ECG features but does not guarantee PTB-XL+ ecgdeli feature-name and definition compatibility.
+
+external:
+  datasets:
+    - cpsc2018
+    - chapman
+  candidate_feature_tables:
+    cpsc2018: data/processed/external/cpsc2018_structured_features.csv
+    chapman: data/processed/external/chapman_structured_features.csv

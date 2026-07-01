@@ -1,0 +1,29 @@
+data:
+  train_csv: data/splits/ptbxl_train.csv
+  val_csv: data/splits/ptbxl_val.csv
+  test_csv: data/splits/ptbxl_test.csv
+  records_base_dir: data/raw/ptbxl
+  labels: [NORM, MI, STTC, CD, HYP]
+model:
+  base_channels: 16
+  blocks_per_stage: [1, 1, 1]
+  dropout: 0.1
+training:
+  seed: 2026
+  device: cpu
+  epochs: 2
+  batch_size: 32
+  num_workers: 0
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  dry_run: false
+  max_train_batches: 200
+  max_eval_batches: 0
+output:
+  metrics_csv: results/internal/signal_baseline_metrics.csv
+  table_csv: tables/table_signal_baseline_results.csv
+  val_predictions_csv: results/internal/signal_val_predictions.csv
+  test_predictions_csv: results/internal/signal_test_predictions.csv
+  history_csv: results/internal/signal_training_history.csv
+  run_summary_json: results/internal/signal_run_summary.json
+  checkpoint_path: results/internal/signal_resnet.pt

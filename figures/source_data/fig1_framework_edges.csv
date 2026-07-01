@@ -1,0 +1,15 @@
+source,target,edge_type,description
+waveform,signal,input,Waveform branch
+structured,leakage,processing,Leakage-safe structured preprocessing
+leakage,structured_mlp,input,Structured-only model
+signal,fair_concat,embedding,Signal embedding branch
+leakage,fair_concat,features,Structured branch
+signal,gated,embedding,Signal embedding branch
+leakage,gated,features,Structured branch
+fair_concat,calibration,evaluation,Temperature scaling and reliability
+gated,calibration,evaluation,Temperature scaling and reliability
+calibration,uncertainty,workflow,Calibrated probabilities for triage
+uncertainty,referral,workflow,Low-confidence referral
+uncertainty,xai,audit,Explain retained and referred cases
+xai,dca,pending,Decision-curve analysis planned
+dca,external,pending,External validation planned

@@ -1,0 +1,2 @@
+found,selected_path,n_rows,n_numeric_features,aligned_samples,status,message
+False,,0,0,0,partial,PTB-XL+ structured features not found. Current project can only run signal-only baseline until structured features are provided.

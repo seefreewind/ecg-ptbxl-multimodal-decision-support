@@ -1,0 +1,2 @@
+can_generate_exact_531_features,can_run_multimodal_external_validation,direct_or_formula_candidate_features,unknown_recipe_features,blocking_issue,notes
+False,False,492,39,ptbxl_plus_exact_531_recipe_missing,This is a feature-name mapping audit only; it does not establish exact PTB-XL+ aggregation compatibility.

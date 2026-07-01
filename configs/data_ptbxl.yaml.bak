@@ -1,0 +1,23 @@
+data_root: data/raw
+ptbxl:
+  metadata_csv: /Users/zy/Downloads/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/ptbxl_database.csv
+  scp_statements_csv: /Users/zy/Downloads/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/scp_statements.csv
+  records_base_dir: /Users/zy/Downloads/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3
+  sampling_rate: 100
+  waveform_column_100hz: filename_lr
+  waveform_column_500hz: filename_hr
+ptbxl_plus:
+  features_path: data/processed
+  features_csv: null
+output:
+  processed_dir: data/processed
+  split_dir: data/splits
+  results_dir: results
+  tables_dir: tables
+task:
+  diagnostic_superclasses:
+  - NORM
+  - MI
+  - STTC
+  - CD
+  - HYP

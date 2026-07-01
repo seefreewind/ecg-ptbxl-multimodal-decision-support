@@ -1,0 +1,5 @@
+base_feature,derivability,description_found,n_features,example_description_id,example_ecgdeli_feature,example_description
+HA_,unknown_recipe,True,3,HA__Global,elHA,"electrical heart axis (1: left axis deviation, 2: horizontal axis, 3: normal axis, 4: vertical axis, 5: right axis, 6: extreme right axis deviation)"
+P_Morph,requires_morphology_function,True,36,P_Morph_X,PWm_X,"P wave morphology in lead X (-3: negative m-shaped, -2: negative biphasic, -1: negative monophasic, 1: positive monophasic, 2: positive biphasic, 3: positive m-shaped for KIT, Glasgow & GE only between -2 and 2)"
+QT_IntCorr,requires_extra_formula,True,36,QT_IntCorr_X,QTci_X,Q-T interval corrected based on Framingham formula in lead X
+ST_Elev,unknown_recipe,True,36,ST_Elev_X,STc_X,ST elevation/depression from multiple Gaussian fits in lead X

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or manuscript artifact package, please cite the associated manuscript and Zenodo record."
+title: "A reproducibility-aware decision-support evaluation framework for multimodal ECG risk stratification"
+authors:
+  - family-names: Zha
+    given-names: Yi
+    affiliation: "The Second Affiliated Hospital of Wenzhou Medical University"
+  - family-names: Lin
+    given-names: Da
+    affiliation: "The Second Affiliated Hospital of Wenzhou Medical University"
+  - family-names: Chen
+    given-names: Ying
+    affiliation: "Wenzhou Medical University"
+  - family-names: Liu
+    given-names: Yue
+    affiliation: "Wenzhou Medical University"
+  - family-names: Zhang
+    given-names: Yu
+    affiliation: "The Second Affiliated Hospital of Wenzhou Medical University"
+    orcid: "https://orcid.org/0000-0001-8579-3692"
+repository-code: "https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support"
+date-released: "2026-06-30"
+license: MIT
