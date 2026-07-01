@@ -1,0 +1,5 @@
+model_name,threshold_range,mean_macro_net_benefit,max_macro_net_benefit,threshold_at_max_macro_net_benefit,mean_net_benefit_vs_treat_all,mean_net_benefit_vs_treat_none,interpretation
+fair_concat_mlp,0.05_to_0.40,0.1881002177255149,0.2299698290311767,0.05,0.16849252848306312,0.1881002177255149,Exploratory internal DCA; threshold-dependent decision-support utility only.
+gated_fusion_mlp,0.05_to_0.40,0.18950595240880128,0.22986447009242852,0.05,0.16989826316634957,0.18950595240880128,Exploratory internal DCA; threshold-dependent decision-support utility only.
+strong_signal_only,0.05_to_0.40,0.18444528195542387,0.22891623964369523,0.05,0.1648375927129721,0.18444528195542387,Exploratory internal DCA; threshold-dependent decision-support utility only.
+structured_mlp,0.05_to_0.40,0.18154052023546022,0.22867678751017673,0.05,0.1619328309930085,0.18154052023546022,Exploratory internal DCA; threshold-dependent decision-support utility only.
