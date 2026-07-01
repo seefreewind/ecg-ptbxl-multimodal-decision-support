@@ -9,6 +9,8 @@ Use **Software** if uploading the reproducible code repository archive, or **Dat
 
 GitHub repository: https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support
 
+GitHub release for Zenodo archiving: https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support/releases/tag/v0.1.0
+
 ## Title
 
 A reproducibility-aware decision-support evaluation framework for multimodal ECG risk stratification
