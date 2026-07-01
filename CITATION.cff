@@ -19,5 +19,6 @@ authors:
     affiliation: "The Second Affiliated Hospital of Wenzhou Medical University"
     orcid: "https://orcid.org/0000-0001-8579-3692"
 repository-code: "https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support"
+doi: "10.5281/zenodo.21091784"
 date-released: "2026-06-30"
 license: MIT

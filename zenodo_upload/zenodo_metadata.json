@@ -44,6 +44,11 @@
       "identifier": "https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support",
       "relation": "isSupplementTo",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.21091784",
+      "relation": "isIdenticalTo",
+      "scheme": "doi"
     }
   ],
   "notes": "Raw PTB-XL, PTB-XL+, CPSC2018, and Chapman-Shaoxing data are not redistributed. Users should obtain raw datasets from their original repositories."

@@ -41,7 +41,7 @@ PDF/SVG exports were also generated for Figures 1-4, Supplementary Figure S1, an
 - Final author list and affiliations.
 - Author contributions.
 - Funding, competing interests, and acknowledgements confirmation.
-- Zenodo DOI URL after deposition.
+- None for code/archive availability; GitHub URL and Zenodo DOI have been inserted.
 - Final journal formatting pass.
 
 ## Final Quality Gate

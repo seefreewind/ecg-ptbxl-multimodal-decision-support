@@ -9,7 +9,7 @@
 5. Upload `zenodo_upload/ecg_ptbxl_bmc_midm_zenodo_artifacts.zip` as an additional artifact if a manuscript-specific artifact bundle is desired.
 6. Copy metadata from `zenodo_upload/zenodo_metadata.json`.
 7. Confirm that raw ECG datasets are not redistributed.
-8. Publish the Zenodo record and copy the DOI URL back into the manuscript data-availability statement.
+8. Done: the DOI URL has been copied back into the manuscript data-availability statement.
 
 ## Files Prepared Locally
 
@@ -17,6 +17,10 @@
 - `zenodo_upload/README_ZENODO_UPLOAD.md`
 - `zenodo_upload/zenodo_metadata.json`
 - `zenodo_upload/MANIFEST.txt`
+
+## Published DOI
+
+- https://doi.org/10.5281/zenodo.21091784
 
 ## Evidence-Boundary Note to Keep in Zenodo Description
 

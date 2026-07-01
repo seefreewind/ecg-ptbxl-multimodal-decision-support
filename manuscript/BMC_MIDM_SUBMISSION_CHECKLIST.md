@@ -8,7 +8,7 @@
 | structured abstract under 350 words | complete | Approximate word count: 286. |
 | keywords 3-10 | complete | Ten keywords included. |
 | dataset URLs inserted | complete | PTB-XL, PTB-XL+, CPSC2018, Chapman-Shaoxing URLs included. |
-| code URL pending or inserted | complete | GitHub URL inserted; Zenodo DOI URL should be added after deposition. |
+| code URL pending or inserted | complete | GitHub URL and Zenodo DOI inserted. |
 | cover letter draft complete | complete | Cover letter draft created. |
 | visual abstract draft complete | complete | Visual abstract markdown created; optional image rendered to manuscript/figures/visual_abstract_bmc_midm.png. |
 | Figure 1 rendered or pending with reason | complete | Rendered to manuscript/figures/figure1_study_design_evidence_boundary.png. |

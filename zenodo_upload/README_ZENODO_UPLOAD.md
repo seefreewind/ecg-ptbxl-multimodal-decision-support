@@ -11,6 +11,8 @@ GitHub repository: https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-
 
 GitHub release for Zenodo archiving: https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support/releases/tag/v0.1.0
 
+Zenodo DOI: https://doi.org/10.5281/zenodo.21091784
+
 ## Title
 
 A reproducibility-aware decision-support evaluation framework for multimodal ECG risk stratification
@@ -42,7 +44,7 @@ This upload contains manuscript-ready code and artifacts for a public-data ECG s
 
 ## Data Availability Text
 
-PTB-XL is available from PhysioNet at https://physionet.org/content/ptb-xl/. PTB-XL+ is available from PhysioNet at https://physionet.org/content/ptb-xl-plus/. CPSC2018 is available from the China Physiological Signal Challenge 2018 website at http://2018.icbeb.org/Challenge.html. The Chapman-Shaoxing ECG database is available from PhysioNet at https://physionet.org/content/ecg-arrhythmia/. This repository does not redistribute raw ECG data.
+PTB-XL is available from PhysioNet at https://physionet.org/content/ptb-xl/. PTB-XL+ is available from PhysioNet at https://physionet.org/content/ptb-xl-plus/. CPSC2018 is available from the China Physiological Signal Challenge 2018 website at http://2018.icbeb.org/Challenge.html. The Chapman-Shaoxing ECG database is available from PhysioNet at https://physionet.org/content/ecg-arrhythmia/. The analysis code and manuscript artifacts are available at https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support and archived on Zenodo at https://doi.org/10.5281/zenodo.21091784. This repository does not redistribute raw ECG data.
 
 ## Keywords
 

@@ -200,7 +200,7 @@ Not applicable.
 
 ### Availability of data and materials
 
-PTB-XL is available from PhysioNet at https://physionet.org/content/ptb-xl/. PTB-XL+ is available from PhysioNet at https://physionet.org/content/ptb-xl-plus/. CPSC2018 is available from the China Physiological Signal Challenge 2018 website at http://2018.icbeb.org/Challenge.html. The Chapman-Shaoxing ECG database is available from PhysioNet at https://physionet.org/content/ecg-arrhythmia/. The analysis code and manuscript artifacts are available at https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support. A Zenodo archive URL should be added after deposition.
+PTB-XL is available from PhysioNet at https://physionet.org/content/ptb-xl/. PTB-XL+ is available from PhysioNet at https://physionet.org/content/ptb-xl-plus/. CPSC2018 is available from the China Physiological Signal Challenge 2018 website at http://2018.icbeb.org/Challenge.html. The Chapman-Shaoxing ECG database is available from PhysioNet at https://physionet.org/content/ecg-arrhythmia/. The analysis code and manuscript artifacts are available at https://github.com/seefreewind/ecg-ptbxl-multimodal-decision-support and archived on Zenodo at https://doi.org/10.5281/zenodo.21091784.
 
 ### Competing interests
 
