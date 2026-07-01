@@ -1,0 +1,38 @@
+data:
+  train_csv: data/processed/stage27/importance_138_internal_xai/fair_fusion_train.csv
+  val_csv: data/processed/stage27/importance_138_internal_xai/fair_fusion_val.csv
+  test_csv: data/processed/stage27/importance_138_internal_xai/fair_fusion_test.csv
+  labels:
+  - NORM
+  - MI
+  - STTC
+  - CD
+  - HYP
+model:
+  name: stage27_importance_138_internal_xai_matched_concat_mlp
+  hidden_dims:
+  - 512
+  - 256
+  dropout: 0.3
+  num_classes: 5
+  expected_structured_dim: 138
+training:
+  epochs: 60
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 8
+  min_delta: 0.0005
+  seed: 2026
+  device: auto
+output:
+  val_predictions_csv: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/stage27_importance_138_internal_xai_matched_concat_mlp_val_predictions.csv
+  test_predictions_csv: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/stage27_importance_138_internal_xai_matched_concat_mlp_test_predictions.csv
+  history_csv: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/stage27_importance_138_internal_xai_matched_concat_mlp_training_history.csv
+  metrics_val_csv: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/stage27_importance_138_internal_xai_matched_concat_mlp_metrics_val.csv
+  metrics_test_csv: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/stage27_importance_138_internal_xai_matched_concat_mlp_metrics_test.csv
+  thresholds_json: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/stage27_importance_138_internal_xai_matched_concat_mlp_thresholds.json
+  run_summary_json: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/stage27_importance_138_internal_xai_matched_concat_mlp_run_summary.json
+  checkpoint_path: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/stage27_importance_138_internal_xai_matched_concat_mlp_best.pt
+  table_csv: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/table_stage27_importance_138_internal_xai_matched_concat_mlp_results.csv
+  threshold_comparison_csv: results/stage27_robustness/importance_138_internal_xai/stage27_importance_138_internal_xai_matched_concat_mlp/table_stage27_importance_138_internal_xai_matched_concat_mlp_threshold_comparison.csv

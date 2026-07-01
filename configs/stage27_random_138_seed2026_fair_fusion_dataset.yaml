@@ -1,0 +1,24 @@
+data:
+  signal_train_csv: data/processed/signal_embeddings_strong_train.csv
+  signal_val_csv: data/processed/signal_embeddings_strong_val.csv
+  signal_test_csv: data/processed/signal_embeddings_strong_test.csv
+  structured_features_csv: data/processed/stage27/random_138_seed2026/ptbxl_structured_features_subset.csv
+  multimodal_index_csv: data/processed/ptbxl_multimodal_index.csv
+  structured_feature_names_txt: data/processed/stage27/random_138_seed2026/structured_feature_names_subset.txt
+  labels:
+  - NORM
+  - MI
+  - STTC
+  - CD
+  - HYP
+preprocessing:
+  imputation_strategy: median
+  standardize_signal: true
+  standardize_structured: true
+output:
+  train_csv: data/processed/stage27/random_138_seed2026/fair_fusion_train.csv
+  val_csv: data/processed/stage27/random_138_seed2026/fair_fusion_val.csv
+  test_csv: data/processed/stage27/random_138_seed2026/fair_fusion_test.csv
+  manifest_csv: data/processed/stage27/random_138_seed2026/fair_fusion_feature_manifest.csv
+  preprocessing_artifact: results/stage27_robustness/random_138_seed2026/preprocessing_artifact.pkl
+  report_md: results/stage27_robustness/random_138_seed2026/fair_fusion_dataset_report.md

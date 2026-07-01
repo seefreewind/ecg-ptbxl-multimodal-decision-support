@@ -1,0 +1,3 @@
+dataset,n_signal_prediction_records,n_candidate_feature_records,n_joinable_records,join_coverage,n_required_reduced_features,n_available_reduced_features,n_missing_reduced_features,feature_schema_coverage,dominant_failure_mode,interpretation
+cpsc2018,9944,2,2,0.00020112630732099757,138,138,0,1.0,candidate_feature_record_count_and_external_signal_embedding_coverage_too_low,Engineering feasibility audit only; not evidence that external PTB-XL+ reconstruction is impossible in principle.
+chapman,45150,2,2,4.4296788482835e-05,138,138,0,1.0,candidate_feature_record_count_and_external_signal_embedding_coverage_too_low,Engineering feasibility audit only; not evidence that external PTB-XL+ reconstruction is impossible in principle.
