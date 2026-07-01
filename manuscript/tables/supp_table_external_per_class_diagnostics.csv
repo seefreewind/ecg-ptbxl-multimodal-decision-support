@@ -1,6 +1,6 @@
 dataset,label,positive_cases,prevalence,auroc,average_precision,f1,threshold_source,note
 CPSC2018,NORM,891,0.0896017699115044,0.911937594584231,0.5255558971834964,0.4343624161073826,ptbxl_validation,AP/F1 should be interpreted with low prevalence and PTB-XL validation-threshold transfer.
 CPSC2018,CD,2885,0.290124698310539,0.902226443472362,0.7762502633665584,0.7463697967086157,ptbxl_validation,Signal-only external result using PTB-XL validation-derived thresholds; no external threshold tuning.
-Chapman-Shaoxing,MI,123,0.0027242524916943,0.9349162860007572,0.079586927552686,0.0276887578515574,ptbxl_validation,"Low AP/F1 should be interpreted with prevalence, label mapping, and PTB-XL validation-threshold transfer."
-Chapman-Shaoxing,CD,3058,0.0677297895902547,0.8387829359675373,0.2624260118136433,0.3318890015672536,ptbxl_validation,"Low AP/F1 should be interpreted with prevalence, label mapping, and PTB-XL validation-threshold transfer."
-Chapman-Shaoxing,HYP,751,0.0166334440753045,0.8488006816530488,0.1759802874375344,0.1353425422073391,ptbxl_validation,"Low AP/F1 should be interpreted with prevalence, label mapping, and PTB-XL validation-threshold transfer."
+Chapman-Shaoxing-Ningbo,MI,123,0.0027242524916943,0.9349162860007572,0.079586927552686,0.0276887578515574,ptbxl_validation,"Low AP/F1 should be interpreted with prevalence, label mapping, and PTB-XL validation-threshold transfer."
+Chapman-Shaoxing-Ningbo,CD,3058,0.0677297895902547,0.8387829359675373,0.2624260118136433,0.3318890015672536,ptbxl_validation,"Low AP/F1 should be interpreted with prevalence, label mapping, and PTB-XL validation-threshold transfer."
+Chapman-Shaoxing-Ningbo,HYP,751,0.0166334440753045,0.8488006816530488,0.1759802874375344,0.1353425422073391,ptbxl_validation,"Low AP/F1 should be interpreted with prevalence, label mapping, and PTB-XL validation-threshold transfer."
